@@ -1,11 +1,12 @@
 import Cookies from 'js-cookie'
-
+const baseUrl = 'http://127.0.0.1:5000/'
 const state = {
   sidebar: {
     opened: Cookies.get('sidebarStatus') ? !!+Cookies.get('sidebarStatus') : true,
     withoutAnimation: false
   },
-  device: 'desktop'
+  device: 'desktop',
+  fileUpload: baseUrl + '/upload/file'
 }
 
 const mutations = {

@@ -46,12 +46,12 @@ export const constantRoutes = [
   {
     path: '/',
     component: Layout,
-    redirect: '/dashboard',
+    redirect: '/home',
     children: [{
-      path: 'dashboard',
-      name: 'Dashboard',
+      path: 'home',
+      name: 'home',
       component: () => import('@/views/dashboard/index'),
-      meta: { title: 'Dashboard', icon: 'dashboard' }
+      meta: { title: 'Front Page', icon: 'home' }
     }]
   },
 
@@ -90,7 +90,8 @@ export const constantRoutes = [
     ]
   },
 
-  {
+  /**
+ {
     path: '/nested',
     component: Layout,
     redirect: '/nested/menu1',
@@ -159,13 +160,170 @@ export const constantRoutes = [
       }
     ]
   },
+ */
+  
+  {
+    path: '/books',
+    component: Layout,
+    redirect: '/book/author',
+    name: 'Book',
+    meta: { title: 'Book Management', icon: 'el-icon-s-help' },
+    children: [
+      {
+        path: 'author',
+        name: 'author',
+        component: () => import('@/views/author/index'),
+        meta: { title: 'author information', icon: 'table' }
+      },
+      {
+        path: 'book',
+        name: 'book',
+        component: () => import('@/views/book/index'),
+        meta: { title: 'book information', icon: 'table' }
+      },
+    ]
+  },
+
+  {
+    path: '/study',
+    component: Layout,
+    // redirect: '/book/author',
+    name: 'study',
+    meta: { title: 'Study Layout', icon: 'el-icon-s-help' },
+    children: [
+      {
+        path: 'sample',
+        name: 'sample',
+        component: () => import('@/views/sample/index'),
+        meta: { title: 'sample information', icon: 'table' }
+      },
+      {
+        path: 'tissue',
+        name: 'tissue',
+        component: () => import('@/views/tissue/index'),
+        meta: { title: 'tissue layout', icon: 'table' }
+      },
+      {
+        path: 'disease',
+        name: 'disease',
+        component: () => import('@/views/disease/index'),
+        meta: { title: 'disease layout', icon: 'table' }
+      },
+      {
+        path: 'gender',
+        name: 'gender',
+        component: () => import('@/views/gender/index'),
+        meta: { title: 'gender layout', icon: 'table' }
+      },
+      {
+        path: 'age',
+        name: 'age',
+        component: () => import('@/views/age/index'),
+        meta: { title: 'age layout', icon: 'table' }
+      },
+      {
+        path: 'metadata',
+        name: 'metadata',
+        component: () => import('@/views/metadata/index'),
+        meta: { title: 'metadata layout', icon: 'table' }
+      },
+    ]
+  },
+
+  {
+    path: '/post',
+    component: Layout,
+    redirect: '/post',
+    children: [{
+      path: 'post',
+      name: 'Post',
+      component: () => import('@/views/post/list'),
+      meta: { title: 'Jobs Management', icon: 'el-icon-menu' }
+    }]
+  },
+
+  {
+    path: '/test',  
+    component: Layout, 
+    children: [{
+      path: 'test', 
+      name: 'test',
+      component: () => import('@/views/test/index'),
+      meta: {
+        title: 'test', icon:'plane'
+      }
+    }]
+  },
+
+  {
+    path: 'customize',
+    name: 'Customize',
+    component: () => import('@/views/customize/index'),
+    meta: { title: 'Customization', icon: 'table' }
+  },
+
+  {
+    path: 'wordcloud',
+    name: 'wordcloud',
+    component: () => import('@/views/wordcloud/index'),
+    meta: { title: 'WordCloud', icon: 'table' }
+  }
+
+  /**
+  {
+    path: '/material',
+    component: Layout,
+    redirect: '/material/upload',
+    meta: {
+      title: 'Element Management System',
+      icon: 'plane' 
+    },
+    children: [{
+        path: 'check-template',
+        name: 'check-template',
+        component: () => import('@/views/material/check-template'),
+        meta: {
+          title: 'Check Template',
+        }
+      },
+      {
+        path: 'logo',
+        name: 'logo',
+        component: () => import('@/views/material/check-logo'),
+        meta: {
+          title: 'Check Logo',
+        }
+      },
+      {
+        path: 'generate',
+        name: 'generate',
+        component: () => import('@/views/material/generate'),
+        meta: {
+          title: 'Generate Element',
+        }
+      },
+      {
+        path: 'check',
+        name: 'check',
+        component: () => import('@/views/material/check'),
+        meta: {
+          title: 'Check Element',
+        }
+      },
+    ]
+  },
+  */
 
   // 404 page must be placed at the end !!!
+  // { path: '*', redirect: '/404', hidden: true }
+]
+
+export const asyncRoutes = [
   { path: '*', redirect: '/404', hidden: true }
 ]
 
 const createRouter = () => new Router({
-  // mode: 'history', // require service support
+  mode: 'hash', // require service support
   scrollBehavior: () => ({ y: 0 }),
   routes: constantRoutes
 })
