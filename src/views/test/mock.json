@@ -1,0 +1,55 @@
+{
+    "msg": "success",
+    "code": 1,
+    "data": [
+        {
+            "id": 2,
+            "permissionToken": "data_spectaculars_token1",
+            "description": "数据看板",
+            "parentId": 1,
+            "checked": true
+        },
+        {
+            "id": 3,
+            "permissionToken": "data_spectaculars_stat_token2",
+            "description": "统计看板",
+            "parentId": 2,
+            "checked": true
+        },
+        {
+            "id": 4,
+            "permissionToken": "data_spectaculars_health_token2",
+            "description": "健康看板",
+            "parentId": 2,
+            "checked": true
+        },
+        {
+            "id": 1,
+            "permissionToken": "system_token0",
+            "description": "系统权限",
+            "parentId": 0,
+            "checked": false
+        },
+        {
+            "id": 5,
+            "permissionToken": "account_management_token1",
+            "description": "账户管理",
+            "parentId": 1,
+            "checked": false
+        },
+        {
+            "id": 6,
+            "permissionToken": "account_management_user_token2",
+            "description": "用户管理",
+            "parentId": 5,
+            "checked": false
+        },
+        {
+            "id": 7,
+            "permissionToken": "account_management_permission_token2",
+            "description": "权限管理",
+            "parentId": 5,
+            "checked": false
+        }
+    ]
+}
