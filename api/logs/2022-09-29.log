@@ -20,3 +20,4 @@
 2022/09/29 20:10:49 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [29/Sep/2022 20:10:49] "GET /accessiondata/summary/ HTTP/1.1" 200 -
 2022/09/29 20:11:16 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [29/Sep/2022 20:11:16] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
 2022/09/29 20:11:16 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [29/Sep/2022 20:11:16] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/09/29 22:40:24 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
