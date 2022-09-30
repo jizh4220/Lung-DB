@@ -13,7 +13,16 @@ export function createAuthorInfo(data) {
 export function getAuthorInfo() {
   return request({
     url: '/author/',
-    method: 'get',
+    method: 'get'
+  })
+}
+
+// getter in List format
+export function getAuthorTableList(listQuery) {
+  return request({
+    url: '/author/table/list/',
+    method: 'post',
+    data: listQuery
   })
 }
 
@@ -21,7 +30,7 @@ export function getAuthorInfo() {
 export function getAuthorInfoById(id) {
   return request({
     url: '/author/' + id,
-    method: 'get',
+    method: 'get'
   })
 }
 
@@ -38,6 +47,6 @@ export function UpdateAuthorInfoById(data) {
 export function DeleteAuthorInfoById(id) {
   return request({
     url: '/author/' + id,
-    method: 'delete',
+    method: 'delete'
   })
 }

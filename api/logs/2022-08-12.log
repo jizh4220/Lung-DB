@@ -1,0 +1,70 @@
+2022/08/12 00:00:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 00:00:57] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 00:09:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 00:09:40] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 00:12:43 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 00:12:43] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 00:13:21 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 00:13:21] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 00:14:39 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 00:14:39] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 00:15:31 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 00:15:31] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 00:38:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 00:38:35] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 00:40:15 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 00:40:15] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 00:48:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 00:48:06] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 00:59:49 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 00:59:49] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 01:04:27 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 01:04:27] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 01:05:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 01:05:23] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 01:05:44 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 01:05:44] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 01:06:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 01:06:01] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 01:06:49 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 01:06:49] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 01:07:08 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 01:07:08] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 01:08:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 01:08:01] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 01:09:13 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 01:09:13] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 01:10:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 01:10:38] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 01:18:07 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 01:18:07] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 01:18:54 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 01:18:54] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 01:50:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 01:50:06] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 01:55:58 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 01:55:58] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 01:56:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 01:56:29] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 01:59:55 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 01:59:55] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 02:00:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 02:00:01] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 02:06:07 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 02:06:07] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 02:10:46 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 02:10:46] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 02:11:10 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 02:11:10] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 02:13:07 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 02:13:07] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 02:13:30 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 02:13:30] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 02:15:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 02:15:35] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 02:15:41 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 02:15:41] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 02:17:03 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 02:17:03] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 02:20:25 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 02:20:25] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 02:23:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 02:23:28] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 02:25:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 02:25:01] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 02:25:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 02:25:22] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 02:27:20 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 02:27:20] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 02:28:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 02:28:01] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 03:37:27 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 03:37:27] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 03:38:17 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 03:38:17] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 03:39:46 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/12 03:39:46 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/12 03:39:47 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/12 03:42:27 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 03:42:27] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 03:43:16 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 03:43:16] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 03:43:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 03:43:38] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 03:44:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 03:44:35] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 03:44:42 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 03:44:42] "[31m[1mPOST /analyze HTTP/1.1[0m" 405 -
+2022/08/12 03:45:44 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/12 03:45:44 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/12 03:45:45 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/12 03:45:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 03:45:50] "[31m[1mPOST /analyze HTTP/1.1[0m" 405 -
+2022/08/12 03:46:10 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/12 03:46:10 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/12 03:46:11 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/12 03:46:13 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 03:46:13] "[31m[1mPOST /analyze HTTP/1.1[0m" 405 -
+2022/08/12 03:47:33 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 03:47:33] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 03:47:41 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 03:47:41] "[31m[1mPOST /analyze HTTP/1.1[0m" 405 -
+2022/08/12 03:48:14 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/12 03:48:14 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/12 03:48:15 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/12 03:48:19 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 03:48:19] "[31m[1mPOST /analyze HTTP/1.1[0m" 405 -
+2022/08/12 03:48:24 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 03:48:24] "[31m[1mPOST /analyze HTTP/1.1[0m" 405 -
+2022/08/12 03:48:43 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/12 03:48:43 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/12 03:48:43 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/12 03:48:52 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 03:48:52] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/12 03:49:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [12/Aug/2022 03:49:00] "[31m[1mPOST /accessiondata/analyze HTTP/1.1[0m" 422 -

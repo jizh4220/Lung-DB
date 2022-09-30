@@ -1,0 +1,186 @@
+2022/08/16 19:36:07 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 19:36:07 werkzeug _internal.py[224] _log() INFO:  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022/08/16 19:36:07 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 19:36:07 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 19:36:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 19:36:22] "[31m[1mGET /accessiondata/summary/plot HTTP/1.1[0m" 422 -
+2022/08/16 19:36:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 19:36:22] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 19:39:47 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 19:39:47] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/16 19:39:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 19:39:51] "[31m[1mGET /accessiondata/summary/plot HTTP/1.1[0m" 422 -
+2022/08/16 19:39:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 19:39:51] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 19:41:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 19:41:57] "[31m[1mGET /accessiondata/summary/plot HTTP/1.1[0m" 422 -
+2022/08/16 19:41:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 19:41:57] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 19:43:42 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 19:43:42 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 19:43:42 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 19:43:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 19:43:50] "GET /accessiondata/summary/plot HTTP/1.1" 200 -
+2022/08/16 19:43:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 19:43:50] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 19:45:51 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 19:45:51 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 19:45:52 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 19:47:01 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 19:47:01 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 19:47:01 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 19:47:25 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 19:47:25 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 19:47:25 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 19:48:27 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 19:48:27 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 19:48:27 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 19:48:32 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 19:48:32] "[31m[1mGET /accessiondata/summary/plot HTTP/1.1[0m" 422 -
+2022/08/16 19:48:32 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 19:48:32] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 19:48:47 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 19:48:47 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 19:48:47 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 19:48:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 19:48:51] "[31m[1mGET /accessiondata/summary/plot HTTP/1.1[0m" 422 -
+2022/08/16 19:48:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 19:48:51] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 19:49:10 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 19:49:10 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 19:49:11 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 19:49:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 19:49:14] "[31m[1mGET /accessiondata/summary/plot HTTP/1.1[0m" 422 -
+2022/08/16 19:49:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 19:49:14] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 19:51:55 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 19:51:55] "[31m[1mGET /accessiondata/summary/plot HTTP/1.1[0m" 422 -
+2022/08/16 19:51:55 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 19:51:55] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 20:10:58 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 20:10:58 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 20:10:58 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 20:11:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:11:04] "[31m[1mGET /accessiondata/summary/plot HTTP/1.1[0m" 422 -
+2022/08/16 20:11:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:11:04] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 20:11:21 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 20:11:21 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 20:11:21 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 20:13:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:13:00] "[31m[1mGET /accessiondata/summary/plot HTTP/1.1[0m" 422 -
+2022/08/16 20:13:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:13:00] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 20:13:47 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 20:13:47 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 20:13:47 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 20:13:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:13:51] "GET /accessiondata/summary/plot HTTP/1.1" 200 -
+2022/08/16 20:13:52 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:13:52] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 20:14:50 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 20:14:50 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 20:14:50 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 20:14:53 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:14:53] "[31m[1mGET /accessiondata/summary/plot HTTP/1.1[0m" 422 -
+2022/08/16 20:14:53 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:14:53] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 20:23:42 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 20:23:42 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 20:23:43 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 20:24:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:24:38] "[31m[1mGET /accessiondata/summary/plot HTTP/1.1[0m" 422 -
+2022/08/16 20:24:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:24:38] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 20:25:17 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 20:25:17 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 20:25:17 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 20:25:21 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:25:21] "[31m[1mGET /accessiondata/summary/plot HTTP/1.1[0m" 422 -
+2022/08/16 20:25:21 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:25:21] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 20:25:58 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 20:25:58 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 20:25:58 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 20:26:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:26:05] "[31m[1mGET /accessiondata/summary/plot HTTP/1.1[0m" 422 -
+2022/08/16 20:26:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:26:05] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 20:29:25 root __init__.py[117] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/16 20:29:25 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:29:25] "[33mGET /accessiondata/summary/plot/ HTTP/1.1[0m" 404 -
+2022/08/16 20:29:25 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:29:25] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 20:29:31 root __init__.py[117] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/16 20:29:31 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:29:31] "[33mGET /accessiondata/summary/plot/ HTTP/1.1[0m" 404 -
+2022/08/16 20:29:31 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:29:31] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 20:30:12 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 20:30:12 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 20:30:12 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 20:30:17 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:30:17] "[31m[1mGET /accessiondata/summary/plot/ HTTP/1.1[0m" 422 -
+2022/08/16 20:30:17 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:30:17] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 20:30:51 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 20:30:52 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 20:30:52 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 20:30:56 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:30:56] "[31m[1mGET /accessiondata/summary/plot/ HTTP/1.1[0m" 422 -
+2022/08/16 20:30:56 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:30:56] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 20:32:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:32:38] "[31m[1mGET /accessiondata/summary/plot/ HTTP/1.1[0m" 422 -
+2022/08/16 20:32:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:32:38] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 20:39:47 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 20:39:47 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 20:39:47 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 20:39:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:39:50] "[31m[1mGET /accessiondata/summary/plot/ HTTP/1.1[0m" 422 -
+2022/08/16 20:39:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:39:50] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 20:39:56 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 20:39:56 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 20:39:57 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 20:40:01 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 20:40:01 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 20:40:01 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 20:40:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:40:05] "[31m[1mGET /accessiondata/summary/plot/ HTTP/1.1[0m" 422 -
+2022/08/16 20:40:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 20:40:05] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 21:10:25 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 21:10:25 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 21:10:25 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 21:10:32 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:10:32] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 21:10:33 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:10:33] "[31m[1mGET /accessiondata/summary/plot/ HTTP/1.1[0m" 422 -
+2022/08/16 21:10:45 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 21:10:45 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 21:10:45 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 21:10:49 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:10:49] "[31m[1mGET /accessiondata/summary/plot/ HTTP/1.1[0m" 422 -
+2022/08/16 21:10:49 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:10:49] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 21:14:09 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 21:14:09 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 21:14:09 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 21:14:10 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 21:14:10 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 21:14:11 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 21:14:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:14:14] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 21:14:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:14:14] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 21:16:34 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 21:16:34 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 21:16:34 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 21:16:45 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:16:45] "[31m[1mPOST /accessiondata/summary/plot/ HTTP/1.1[0m" 422 -
+2022/08/16 21:16:45 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:16:45] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 21:16:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:16:48] "[31m[1mPOST /accessiondata/summary/plot/ HTTP/1.1[0m" 422 -
+2022/08/16 21:16:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:16:48] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 21:17:07 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 21:17:07 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 21:17:07 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 21:19:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:19:22] "[31m[1mGET /accessiondata/summary/plot/ HTTP/1.1[0m" 422 -
+2022/08/16 21:19:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:19:22] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 21:21:23 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/16 21:21:23 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/16 21:21:23 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/16 21:21:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:21:28] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 21:21:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:21:28] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 21:26:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:26:22] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 21:26:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:26:22] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 21:27:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:27:29] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 21:27:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:27:29] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 21:27:54 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:27:54] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 21:27:54 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:27:54] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 21:28:25 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:28:25] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 21:28:25 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:28:25] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 21:46:20 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:46:20] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 21:46:20 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:46:20] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 21:47:47 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:47:47] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 21:47:47 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:47:47] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 21:50:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:50:14] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 21:50:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:50:14] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 21:50:27 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:50:27] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 21:50:27 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:50:27] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 21:50:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:50:40] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 21:50:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 21:50:40] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 22:30:03 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:30:03] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 22:30:03 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:30:03] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 22:38:43 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:38:43] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 22:38:43 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:38:43] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 22:44:08 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:44:08] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 22:44:08 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:44:08] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 22:46:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:46:38] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 22:46:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:46:38] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 22:47:08 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:47:08] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 22:47:08 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:47:08] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 22:48:45 root __init__.py[117] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/16 22:48:45 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:48:45] "[33mGET /vue-admin-template/table/list HTTP/1.1[0m" 404 -
+2022/08/16 22:52:34 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:52:34] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/16 22:52:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:52:38] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 22:52:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:52:38] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 22:53:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:53:36] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 22:53:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:53:36] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 22:54:55 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:54:55] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 22:54:56 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:54:56] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 22:55:43 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:55:43] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 22:55:43 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 22:55:43] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 23:00:17 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 23:00:17] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 23:00:17 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 23:00:17] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/16 23:05:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 23:05:36] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/16 23:05:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [16/Aug/2022 23:05:36] "GET /accessiondata/summary/ HTTP/1.1" 200 -

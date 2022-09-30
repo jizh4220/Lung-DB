@@ -1,0 +1,207 @@
+```{r}
+library(dplyr)
+library(ggplot2)
+library(patchwork)
+base_dir <- "/Users/justinzhang/Downloads/LungDB_DB/api/app/summary/summary"
+all_folders <- list.files(base_dir, pattern = ".csv",
+             full.names = TRUE, recursive = TRUE)
+
+df <- lapply(all_folders, read.csv)
+df <- do.call(rbind, df)
+
+unique(df$accession)
+#load in db_info.csv which stores meta data information about each sample
+df <- df[!duplicated(df$accession), ]
+
+cur_collection_list <- unique(grep("GSE", df$gse_alias, value = TRUE))
+sum(df$cells)
+colnames(df)[8] <- "cellNum"
+colnames(df)[7] <- "collection"
+
+i <- 2
+df[is.na(df$gender), ]$gender <- "Unknown"
+for (i in 2:ncol(df)) {
+    df[is.na(df[, i]), i] <- "Unknown"
+    df[grep("un", df[, i], ignore.case = TRUE), i] <- "Unknown"
+}
+
+plot_meta <- function(df, width = 20, height = 16) {
+    total_accession <- nrow(df)
+    total_collection <- unique(df$collection)
+    dir.create(file.path(base_dir, "metaPlot"), recursive = TRUE)
+    # gender distribution
+    gen <- table(df$gender)
+    gen <- as.data.frame(gen)
+    gen <- gen %>% arrange(Freq)
+    # plot gender distribution
+    plot_dir <- file.path(base_dir, "metaPlot")
+    p1 <- ggplot(gen[1:2, ], aes(x = Var1,
+                y = Freq, fill = Var1)) +
+                geom_bar(stat = "identity") +
+                #facet_wrap(~Macro_Groups) +
+                labs(x = "Gender",
+                    y = "Counts(per sample)",
+                    title = "Gender Distribution",
+                    subtitle = paste0("Number of Accessions: ",
+                                    total_accession),
+                    size = 100) +
+                theme(axis.text = element_text(size = 12, angle = 45),
+                        axis.title.x = element_text(size = 15),
+                        axis.title.y = element_text(size = 15),
+                        legend.key.size = unit(1, "cm"),
+                        legend.text = element_text(size = 15),
+                        plot.title = element_text(size = 20, hjust = 0.5),
+                        plot.subtitle = element_text(size = 15, hjust = 0.7)
+                        )
+    p_title <- file.path(plot_dir, "Meta_Gender.png")
+    ggsave(filename = p_title,
+        plot = p1, width = width, height = height, units = "in")
+    print("Successfully Generate Gender Distribution")
+    # disease distribution
+    dis <- table(df$disease)
+    dis <- as.data.frame(dis)
+    dis <- dis %>% arrange(-Freq)
+
+    # plot Disease Frequency > 100
+    p2a <- ggplot(dis[dis$Freq >= 100, ], aes(y = Var1,
+                x = Freq, fill = Var1)) +
+                geom_bar(stat = "identity") +
+                #facet_wrap(~Macro_Groups) +
+                labs(y = "Disease",
+                    x = "Counts(per accession)",
+                    title = "Disease Distribution",
+                    subtitle = paste0("Number of Accessions: ",
+                                    total_accession),
+                    size = 100) +
+                theme(axis.text = element_text(size = 12, angle = 45),
+                        axis.title.x = element_text(size = 15),
+                        axis.title.y = element_text(size = 15),
+                        legend.key.size = unit(1, "cm"),
+                        legend.text = element_text(size = 15),
+                        plot.title = element_text(size = 20, hjust = 0.5),
+                        plot.subtitle = element_text(size = 15, hjust = 0.7)
+                        )
+    p_title <- file.path(plot_dir, "Meta_Disease_1.png")
+    ggsave(filename = p_title,
+        plot = p2a, width = width, height = height, units = "in")
+    print("Successfully Generate Disease_1 Distribution")
+    p2b <- ggplot(dis[dis$Freq < 100 & dis$Freq >= 10, ], aes(y = Var1,
+                x = Freq, fill = Var1)) +
+                geom_bar(stat = "identity") +
+                #facet_wrap(~Macro_Groups) +
+                labs(y = "Disease",
+                    x = "Counts(per accession)",
+                    title = "Disease Distribution",
+                    subtitle = paste0("Number of Accessions: ",
+                                    total_accession),
+                    size = 100) +
+                theme(axis.text = element_text(size = 12, angle = 45),
+                        axis.title.x = element_text(size = 15),
+                        axis.title.y = element_text(size = 15),
+                        legend.key.size = unit(1, "cm"),
+                        legend.text = element_text(size = 15),
+                        plot.title = element_text(size = 20, hjust = 0.5),
+                        plot.subtitle = element_text(size = 15, hjust = 0.7)
+                        )
+    p_title <- file.path(plot_dir, "Meta_Disease_2.png")
+    ggsave(filename = p_title,
+        plot = p2b, width = width, height = height, units = "in")
+    print("Successfully Generate Disease_2 Distribution")
+    p2c <- ggplot(dis[dis$Freq < 10, ], aes(y = Var1,
+                x = Freq, fill = Var1)) +
+                geom_bar(stat = "identity") +
+                #facet_wrap(~Macro_Groups) +
+                labs(y = "Disease",
+                    x = "Counts(per accession)",
+                    title = "Disease Distribution",
+                    subtitle = paste0("Number of Accessions: ",
+                                    total_accession),
+                    size = 100) +
+                theme(axis.text = element_text(size = 12, angle = 45),
+                        axis.title.x = element_text(size = 15),
+                        axis.title.y = element_text(size = 15),
+                        legend.key.size = unit(1, "cm"),
+                        legend.text = element_text(size = 15),
+                        plot.title = element_text(size = 20, hjust = 0.5),
+                        plot.subtitle = element_text(size = 15, hjust = 0.7)
+                        )
+    p_title <- file.path(plot_dir, "Meta_Disease_3.png")
+    ggsave(filename = p_title,
+        plot = p2c, width = width, height = height, units = "in")
+    print("Successfully Generate Disease_3 Distribution")
+    # ps <- list()
+    # ps[[1]] <- p2a
+    # ps[[2]] <- p2b
+    # ps[[3]] <- p2c
+    # p2 <- wrap_plots(ps, guides = "collect")
+    # p_title <- file.path(plot_dir, "Meta_Disease.png")
+    # ggsave(filename = p_title,
+    #     plot = p2, width = 12, height = 10, units = "in")
+
+    df$age[grep("<1 y|embro|stage|months|days|late", df$age)] <- 1
+    df$age[grep(" y", df$age)] <- 3
+    num_age <- df$age[
+            grep("y|embro|adult|stage|months|days", df$age, invert = T)]
+    num_age <- num_age[grep("[0-9]", num_age)]
+    num_age <- as.numeric(num_age)
+    num_age <- table(num_age)
+    num_age <- as.data.frame(num_age)
+    num_age$aging <- "old"
+    num_age$aging[1] <- "fetal"
+    num_age$aging[2:11] <- "kid"
+    num_age$aging[12:20] <- "young"
+    num_age$aging[21:35] <- "medium"
+    p3 <- ggplot(num_age, aes(x = num_age,
+                y = Freq, fill = aging)) +
+                geom_bar(stat = "identity") +
+                labs(y = "Age(year)",
+                    x = "Counts(per accession)",
+                    title = "Age Distribution",
+                    subtitle = paste0("Number of Accessions: ",
+                                    total_accession),
+                    size = 100) +
+                theme(axis.text = element_text(size = 12, angle = 45),
+                        axis.title.x = element_text(size = 15),
+                        axis.title.y = element_text(size = 15),
+                        legend.key.size = unit(1, "cm"),
+                        legend.text = element_text(size = 15),
+                        plot.title = element_text(size = 20, hjust = 0.5),
+                        plot.subtitle = element_text(size = 15, hjust = 0.7)
+                        )
+    p_title <- file.path(plot_dir, "Meta_age.png")
+    ggsave(filename = p_title,
+        plot = p3, width = width, height = height, units = "in")
+    print("Successfully Generate Age_1 Distribution")
+    char_age <- df$age[grep("adult", df$age, ignore.case = T)]
+    char_age <- table(char_age)
+    char_age <- as.data.frame(char_age)
+    char_age$aging <- "adult"
+    char_age$aging[1] <- "fetal"
+    char_age$aging[2:3] <- "kid"
+    p3b <- ggplot(char_age[1:4, ], aes(x = char_age,
+                y = Freq, fill = char_age)) +
+                geom_bar(stat = "identity") +
+                #facet_wrap(~Macro_Groups) +
+                labs(y = "Age(year)",
+                    x = "Counts(per accession)",
+                    title = "Age Distribution",
+                    subtitle = paste0("Number of Accessions: ",
+                                    total_accession),
+                    size = 100) +
+                theme(axis.text = element_text(size = 12, angle = 45),
+                        axis.title.x = element_text(size = 15),
+                        axis.title.y = element_text(size = 15),
+                        legend.key.size = unit(1, "cm"),
+                        legend.text = element_text(size = 15),
+                        plot.title = element_text(size = 20, hjust = 0.5),
+                        plot.subtitle = element_text(size = 15, hjust = 0.7)
+                        )
+    p_title <- file.path(plot_dir, "Meta_age2.png")
+    ggsave(filename = p_title,
+        plot = p3b, width = width, height = height, units = "in")
+    print("Successfully Generate Age_2 Distribution")
+    return(NULL)
+}
+
+plot_meta(df, width = 16, height = 10)
+```

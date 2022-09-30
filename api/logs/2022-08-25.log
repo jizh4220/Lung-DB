@@ -1,0 +1,13 @@
+2022/08/25 23:19:57 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/25 23:19:57 werkzeug _internal.py[224] _log() INFO:  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022/08/25 23:19:57 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/25 23:19:57 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/25 23:20:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [25/Aug/2022 23:20:11] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/25 23:20:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [25/Aug/2022 23:20:11] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/25 23:20:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [25/Aug/2022 23:20:22] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/25 23:20:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [25/Aug/2022 23:20:22] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/25 23:38:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [25/Aug/2022 23:38:11] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/25 23:38:41 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [25/Aug/2022 23:38:41] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/25 23:39:07 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [25/Aug/2022 23:39:07] "POST /accessiondata/analyze HTTP/1.1" 200 -
+2022/08/25 23:42:12 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [25/Aug/2022 23:42:12] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/25 23:42:12 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [25/Aug/2022 23:42:12] "GET /accessiondata/summary/ HTTP/1.1" 200 -

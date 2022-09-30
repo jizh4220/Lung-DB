@@ -1,0 +1,99 @@
+2022/07/21 16:02:31 flask_api __init__.py[37] create_app() INFO: Flask Rest Api startup
+2022/07/21 16:02:31 werkzeug _internal.py[224] _log() INFO:  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022/07/21 16:02:31 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/21 16:02:32 flask_api __init__.py[37] create_app() INFO: Flask Rest Api startup
+2022/07/21 16:02:43 root __init__.py[97] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/21 16:02:43 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:02:43] "[33mGET / HTTP/1.1[0m" 404 -
+2022/07/21 16:07:35 root __init__.py[97] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/21 16:07:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:07:35] "[33mGET / HTTP/1.1[0m" 404 -
+2022/07/21 16:10:25 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\backend\\wordcloud\\config.py', reloading
+2022/07/21 16:10:25 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/21 16:10:26 flask_api __init__.py[37] create_app() INFO: Flask Rest Api startup
+2022/07/21 16:10:42 root __init__.py[97] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/21 16:10:42 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:10:42] "[33mGET / HTTP/1.1[0m" 404 -
+2022/07/21 16:10:46 root __init__.py[97] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/21 16:10:46 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:10:46] "[33mGET /authors HTTP/1.1[0m" 404 -
+2022/07/21 16:10:52 root __init__.py[97] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/21 16:10:52 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:10:52] "[33mGET /books HTTP/1.1[0m" 404 -
+2022/07/21 16:10:57 root __init__.py[97] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/21 16:10:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:10:57] "[33mGET /api.books HTTP/1.1[0m" 404 -
+2022/07/21 16:11:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:11:04] "[32mGET /api/books HTTP/1.1[0m" 308 -
+2022/07/21 16:11:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:11:04] "[35m[1mGET /api/books/ HTTP/1.1[0m" 500 -
+2022/07/21 16:11:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:11:04] "GET /api/books/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022/07/21 16:11:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:11:04] "GET /api/books/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022/07/21 16:11:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:11:04] "GET /api/books/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022/07/21 16:11:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:11:04] "[36mGET /api/books/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022/07/21 16:19:50 root __init__.py[97] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/21 16:19:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:19:50] "[33mGET /api/authors/ HTTP/1.1[0m" 404 -
+2022/07/21 16:25:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:25:29] "[35m[1mGET /api/author/ HTTP/1.1[0m" 500 -
+2022/07/21 16:25:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:25:29] "GET /api/author/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022/07/21 16:25:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:25:29] "GET /api/author/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022/07/21 16:25:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:25:29] "GET /api/author/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022/07/21 16:25:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:25:29] "[36mGET /api/author/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022/07/21 16:29:52 flask_api __init__.py[37] create_app() INFO: Flask Rest Api startup
+2022/07/21 16:29:52 flask_migrate __init__.py[100] wrapped() ERROR: Error: Directory migrations already exists and is not empty
+2022/07/21 16:30:00 flask_api __init__.py[37] create_app() INFO: Flask Rest Api startup
+2022/07/21 16:31:00 flask_api __init__.py[37] create_app() INFO: Flask Rest Api startup
+2022/07/21 16:31:00 werkzeug _internal.py[224] _log() INFO:  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022/07/21 16:31:00 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/21 16:31:00 flask_api __init__.py[37] create_app() INFO: Flask Rest Api startup
+2022/07/21 16:31:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:31:06] "[35m[1mGET /api/author/ HTTP/1.1[0m" 500 -
+2022/07/21 16:31:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:31:06] "[36mGET /api/author/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022/07/21 16:31:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:31:06] "[36mGET /api/author/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022/07/21 16:31:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:31:06] "[36mGET /api/author/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022/07/21 16:31:07 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:31:07] "[36mGET /api/author/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022/07/21 16:31:15 root __init__.py[97] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/21 16:31:15 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:31:15] "[33mGET / HTTP/1.1[0m" 404 -
+2022/07/21 16:32:04 flask_api __init__.py[37] create_app() INFO: Flask Rest Api startup
+2022/07/21 16:32:26 flask_api __init__.py[37] create_app() INFO: Flask Rest Api startup
+2022/07/21 16:32:26 werkzeug _internal.py[224] _log() INFO:  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022/07/21 16:32:26 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/21 16:32:27 flask_api __init__.py[37] create_app() INFO: Flask Rest Api startup
+2022/07/21 16:32:33 root __init__.py[97] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/21 16:32:33 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:32:33] "[33mGET / HTTP/1.1[0m" 404 -
+2022/07/21 16:32:39 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:32:39] "[32mGET /api/author HTTP/1.1[0m" 308 -
+2022/07/21 16:32:39 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:32:39] "[35m[1mGET /api/author/ HTTP/1.1[0m" 500 -
+2022/07/21 16:32:39 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:32:39] "[36mGET /api/author/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022/07/21 16:32:39 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:32:39] "[36mGET /api/author/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022/07/21 16:32:39 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 16:32:39] "[36mGET /api/author/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022/07/21 19:21:47 flask_api __init__.py[39] create_app() INFO: Flask Rest Api startup
+2022/07/21 19:21:55 flask_api __init__.py[39] create_app() INFO: Flask Rest Api startup
+2022/07/21 19:26:25 flask_api __init__.py[41] create_app() INFO: Flask Rest Api startup
+2022/07/21 19:26:25 werkzeug _internal.py[224] _log() INFO:  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022/07/21 19:26:25 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/21 19:26:26 flask_api __init__.py[41] create_app() INFO: Flask Rest Api startup
+2022/07/21 19:26:29 root __init__.py[107] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/21 19:26:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:26:29] "[33mGET / HTTP/1.1[0m" 404 -
+2022/07/21 19:26:49 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:26:49] "GET /api/docs/ HTTP/1.1" 200 -
+2022/07/21 19:26:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:26:50] "GET /api/docs/index.css HTTP/1.1" 200 -
+2022/07/21 19:26:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:26:50] "GET /api/docs/swagger-ui.css HTTP/1.1" 200 -
+2022/07/21 19:26:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:26:50] "GET /api/docs/swagger-ui-bundle.js HTTP/1.1" 200 -
+2022/07/21 19:26:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:26:50] "GET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2022/07/21 19:26:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:26:51] "GET /api/spec HTTP/1.1" 200 -
+2022/07/21 19:26:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:26:51] "GET /api/docs/favicon-32x32.png HTTP/1.1" 200 -
+2022/07/21 19:27:51 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\backend\\wordcloud\\app\\users\\routes.py', reloading
+2022/07/21 19:27:51 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/21 19:27:52 flask_api __init__.py[41] create_app() INFO: Flask Rest Api startup
+2022/07/21 19:28:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:28:22] "GET /api/docs/ HTTP/1.1" 200 -
+2022/07/21 19:28:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:28:23] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2022/07/21 19:28:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:28:23] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2022/07/21 19:28:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:28:23] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2022/07/21 19:28:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:28:23] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2022/07/21 19:28:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:28:23] "GET /api/spec HTTP/1.1" 200 -
+2022/07/21 19:28:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:28:23] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2022/07/21 19:31:20 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\backend\\wordcloud\\app\\users\\routes.py', reloading
+2022/07/21 19:31:20 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/21 19:31:24 flask_api __init__.py[41] create_app() INFO: Flask Rest Api startup
+2022/07/21 19:31:25 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:31:25] "GET /api/docs/ HTTP/1.1" 200 -
+2022/07/21 19:31:25 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:31:25] "[36mGET /api/docs/index.css HTTP/1.1[0m" 304 -
+2022/07/21 19:31:25 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:31:25] "[36mGET /api/docs/swagger-ui.css HTTP/1.1[0m" 304 -
+2022/07/21 19:31:25 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:31:25] "[36mGET /api/docs/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2022/07/21 19:31:25 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:31:25] "[36mGET /api/docs/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2022/07/21 19:31:26 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:31:26] "GET /api/spec HTTP/1.1" 200 -
+2022/07/21 19:31:26 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [21/Jul/2022 19:31:26] "[36mGET /api/docs/favicon-32x32.png HTTP/1.1[0m" 304 -
+2022/07/21 23:12:22 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\backend\\wordcloud\\app\\__init__.py', reloading
+2022/07/21 23:12:25 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/21 23:12:27 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/21 23:13:29 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\backend\\wordcloud\\main.py', reloading
+2022/07/21 23:13:30 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/21 23:13:31 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup

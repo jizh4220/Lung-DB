@@ -1,0 +1,896 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(Seurat)
+library(dplyr)
+library(Matrix)
+library(ggplot2)
+library(patchwork)
+library(tidyverse)
+```
+
+# Load Necessary Functions for Our Lung DB scRNA-seq Integration Demo
+```{r}
+`%!in%` <- Negate(`%in%`)
+
+library(future)
+plan()
+plan("multicore", workers = 4)
+options(future.globals.maxSize = 51539607552)
+
+routine_QC <- function(seurat) {
+  seurat$percent.mt <- PercentageFeatureSet(
+                    object = seurat, pattern = "^MT-")
+  seurat$log10GenesPerUMI <- log10(
+    seurat$nFeature_RNA) / log10(seurat$nCount_RNA)
+
+  seurat <- subset(seurat, percent.mt <= 10)
+
+  seurat <- NormalizeData(seurat,
+                          normalization.method = "LogNormalize",
+                          scale.factor = 1e4)
+  seurat <- FindVariableFeatures(seurat)
+  seurat <- ScaleData(seurat)
+  seurat <- RunPCA(seurat, features = VariableFeatures(seurat))
+
+  return(seurat)
+}
+
+
+convert_ENSMBL <- function(counts) {
+
+  genes <- rownames(counts)
+  genes <- sub("\\.[0-9]", "", genes)
+  ids <- select(org.Hs.eg.db, keys = genes,
+            columns = c("ENSEMBL", "SYMBOL"),
+            keytype = "ENSEMBL")
+
+  ids <- na.omit(ids)
+
+  length(unique(ids$SYMBOL))
+
+  ids <- ids[!duplicated(ids$SYMBOL),]
+  ids <- ids[!duplicated(ids$ENSEMBL),]
+  pos <- match(ids$ENSEMBL, genes)
+  counts <- counts[pos, ]
+  rownames(counts) <- ids$SYMBOL
+  return(counts)
+}
+```
+
+
+```{r}
+goi <- c("DDR2", "FAP", "HAS1")
+cur_dir <- "/home/zhang_jiaxuan/Lung_DB/demo/"
+temp_whole_fibs <- readRDS("/home/zhang_jiaxuan/GSE/whole_fib_clean_harmony_seurat_0705.rds")
+table(temp_whole_fibs$pseudo_disease)
+seurat <- subset(temp_whole_fibs, pseudo_disease %in% c("lung cancer/tumor", "Normal"))
+
+
+
+
+p <- feature_and_dim_plot(seurat, goi = goi,
+                        param = "pseudo_disease", doi = "lung fibrosis")
+p_title <- paste0(ipf_dir, paste(unlist(goi), collapse = "_"), "_feature_and_dim.pdf")
+ggsave(filename = p_title,
+    plot = p, width = 34, height = 16, units = "in")
+
+p <- feature_and_dim_plot(temp_whole_fibs, goi = goi,
+                        param = "pseudo_disease", doi = "Normal")
+p_title <- paste0(ipf_dir, paste(unlist(goi), collapse = "_"), "_Normal_feature_and_dim.png")
+ggsave(filename = p_title,
+    plot = p, width = 34, height = 16, units = "in")
+
+doi <- unique(temp_whole_fibs$DISEASE)
+ps <- bulk_feature(temp_whole_fibs, goi = goi,
+                        param = "DISEASE", doi = doi)
+length(ps)
+p_title <- paste0(ipf_dir, paste(unlist(goi), collapse = "_"), "_all_disease_features.png")
+p <- wrap_plots(ps[1:7], guides = "collect")
+ggsave(filename = p_title,
+    plot = p, width = 34, height = 16, units = "in")
+
+
+bulk_vionlin <- function(seurat, goi = goi[1]) {
+    p <- VlnPlot(seurat,
+                features = goi, group.by = "celltype",
+                split.by = "pseudo_disease",
+                same.y.lims = TRUE,
+                pt.size = 0
+                )
+    return(p)
+}
+
+
+for (i in 1:length(goi)) {
+    p <- bulk_vionlin(seurat, goi[i])
+    p_title <- paste0(cur_dir, goi[i], "_violin.pdf")
+    ggsave(filename = p_title,
+        plot = p, width = 34, height = 16, units = "in")
+}
+```
+
+
+```{r}
+annotate_celltype <- function(seurat, ref_seurat) {
+  seurat_anchors <- FindTransferAnchors(reference = ref_seurat,
+                    query = seurat, dims = 1:30)
+  predictions <- TransferData(anchorset = seurat_anchors,
+                refdata = ref_seurat$celltype,
+                dims = 1:30)
+  seurat <- AddMetaData(object = seurat,
+              metadata = predictions[1], col.name = "celltype")
+  return(seurat)
+}
+
+#map seurat to ref_seurat and annotate cell types
+create_and_map <- function(input_data, input_meta = NULL, ref_seurat) {
+  counts <- read.csv(input_data)
+  #check gene names existing
+  if (grepl("[A-Z]", rownames(counts)) == FALSE) {
+    if (grepl("[A-Z]", counts[, 1]) == TRUE) {
+      rownames(counts) <- counts[, 1]
+      counts <- counts[, -1]
+    } else {
+      stop("EROOR: No Gene Name Found for Input Count File. Need Manual Checking!")
+    }
+  }
+  if (is.null(input_meta) != TRUE) {
+    meta <- read.csv(input_meta)
+    x_idx <- grep("X", colnames(meta))
+    if(length(x_idx) > 0) {
+      meta <- meta[, -x_idx]
+    }
+  }
+  if (length(grep("ENSG", rownames(counts))) > 100) {
+    library(org.Hs.eg.db)
+    counts <- convert_ENSMBL(counts)
+  }
+  seurat <- CreateSeuratObject(counts, min.cells = 10,
+                            min.features = 200, names.delim = "_",
+                            project = "sample")
+  gse <- gsub("^.*/|_.*", "", input_meta)
+  seurat$gse_alias <- gse
+  print("Successfully Create a Seurat Object based on standard QC")
+  meta_id <- grep("id", colnames(meta), ignore.case = TRUE)
+  meta <- meta[match(meta[, meta_id], colnames(seurat)), ]
+  #check if matchig of meta data succeed
+  if (is.na(rownames(meta) == TRUE)) {
+    stop("EROOR: No Cell Name Found for Input Meta Data file. Need Manual Checking!")
+  }
+  for (i in 1:ncol(meta)) {
+    if(i == meta_id) {
+      next
+    }
+    seurat <- AddMetaData(seurat, meta[, i],
+            col.name = colnames(meta)[i])
+  }
+  print("Successfully Find and match meta data onto Seurat Object")
+  seurat <- routine_QC(seurat)
+  seurat <- annotate_celltype(seurat, ref_seurat)
+  print("Successfully Annotate Seurat Object based on Reference Seurat Object")
+  return(seurat)
+}
+
+
+process_download_meta <- function(download_meta) {
+    meta <- read.csv(download_meta)
+    chac <- meta$characteristics
+    #tissue
+    tissue <- gsub(".*tissue:|.*tissue type:|tissue diagnosis:|.*type of tumor:|.*cell type|^tissue:", "tissue:", chac, ignore.case = T)
+    tissue <- gsub(",.*", "", tissue)
+    tissue <- gsub(".*: ", "", tissue)
+    meta$TISSUE <- tissue
+    #disease
+    meta$DISEASE <- "Normal"
+    idx <- grep("disease|cancer|diagnosis|status", chac, ignore.case = TRUE)
+    tmp <- chac[idx]
+    disease <- gsub(".*disease:|.*diagnosis:|.*disease state:|.*subject status:|.*subtype:", "disease:", tmp, ignore.case = T)
+    disease <- gsub(",.*", "", disease)
+    disease <- gsub(".*: ", "", disease)
+    meta$DISEASE[idx] <- disease
+    #age
+    meta$age <- NA
+    idx <- grep("age", chac, ignore.case = T)
+    tmp <- chac[idx]
+    tmp <- gsub("^age:|.*,age:|.*years):", "age:", tmp, ignore.case = T)
+    age <- gsub(",.*", "", tmp)
+    age <- gsub(".*: | years old| years| days", "", age)
+    meta$age[idx] <- age
+    #gender
+    meta$gender <- NA
+    idx <- grep("gender|sex", chac, ignore.case = T)
+    tmp <- chac[idx]
+    gender <- gsub(".*,sex:|.*,gender:", "gender:", tmp, ignore.case = T)
+    gender <- gsub(",.*", "", gender)
+    gender[grep("f", gender, ignore.case = T)] <- "F"
+    gender[grep("m", gender, ignore.case = T)] <- "M"
+    meta$gender[idx] <- gender
+    return(meta)
+}
+
+
+append_download_meta <- function(seurat, meta) {
+  tmp <- seurat
+  seurat$gender <- NA
+  seurat$age <- NA
+  seurat$TISSUE <- NA
+  seurat$DISEASE <- NA
+  seurat$orig.ident <- as.character(seurat$orig.ident)
+  sp <- gsub("A|T|C|G|\\_|\\.|\\-", "", colnames(seurat))
+  orig <- unique(sp)
+  meta <- arrange(meta, by = accession)
+  if (all(unique(seurat$orig.ident) %in% meta$accession) != TRUE) {
+    print("Cannot Find Direct Accession in Current Seurat Object")
+    print("Try Appending Meta Data by Unique Column Index")
+    for (j in 1:length(orig)) {
+      #c_idx <- grep(orig[j], meta$accession)
+      c_idx <- j
+      s_idx <- grep(orig[j], colnames(seurat))
+      seurat$orig.ident[s_idx] <- meta$accession[c_idx]
+      seurat$TISSUE[s_idx] <- meta$TISSUE[c_idx]
+      seurat$DISEASE[s_idx] <- meta$DISEASE[c_idx]
+      seurat$gender[s_idx] <- meta$gender[c_idx]
+      seurat$age[s_idx] <- meta$age[c_idx]
+    }
+    if(all(is.na(seurat$TISSUE))) {
+      stop("EROOR: Something Wrong with Meta Data Provided. Need Manual Checking!")
+    }
+  }
+  return(seurat)
+}
+
+
+
+map_and_refine <- function(seurat, ref_seurat, req_organ) {
+  meta <- seurat@meta.data
+
+  meta <- extract_metadata(meta)
+
+  c_idx <- grep("celltype", colnames(meta), ignore.case = T)
+  if (length(c_idx) > 0) {
+    colnames(meta)[c_idx] <- "orig_celltype"
+  }
+
+  seurat@meta.data <- meta
+
+  organ_idx <- grep("organ|tissue", colnames(meta), ignore.case = T)
+  #seurat <- subset(seurat, )
+  if (length(c_idx) > 0) {
+    colnames(meta)[c_idx] <- "orig_celltype"
+  }
+  seurat <- routine_QC(seurat)
+  seurat <- annotate_celltype(seurat, ref_seurat)
+  return(seurat)
+}
+
+sub_celltype <- function(seurat, req_celltype) {
+  Idents(seurat) <- seurat$celltype
+  cluster_list <- unique(seurat$celltype)
+  ctype <- cluster_list[cluster_list %in% req_celltype]
+  if(length(ctype) == 0) {
+    print(paste0("No Requested ", req_celltype,
+          " Cell Type Found In Current Seurat Object"))
+    return(NULL)
+  }
+
+  ctype_seurat <- subset(x = seurat, idents = ctype)
+  print(paste0("Successfully Subset Cell Types: ", ctype))
+  return(ctype_seurat)
+}
+
+sub_tissuetype <- function(seurat, req_organ) {
+  tis_list <- unique(seurat$TISSUE)
+  ctype <- grep(req_organ, tis_list, ignore.case = T)
+
+  ctype_seurat <- subset(x = seurat, TISSUE %in% tis_list[ctype])
+  print(paste0("Successfully Subset Tissue Types: ", tis_list[ctype]))
+  return(ctype_seurat)
+}
+
+pre_integration_module <- function(input_data, input_meta = NULL,
+                            download_meta = NULL, req_organ,
+                             ref_seurat) {
+  types <- tools::file_ext(input_data)
+  print("The input data type is a gz file, thus we guess it might be a count file.")
+  #get seurat with ref mapped celltypes
+  if (types == "gz") {
+    print("#######Converting Count Matrix into Seurat Object##############")
+    seurat <- create_and_map(input_data, input_meta, ref_seurat)
+    meta <- process_download_meta(download_meta)
+    seurat <- append_download_meta(seurat, meta)
+  }
+  #filter seurat with metadata and re-align celltypes
+  if (types == "rds") {
+    seurat <- readRDS(input_data)
+    seurat <- map_and_refine(seurat, ref_seurat)
+  }
+  if (types == ".h5ad") {
+    seurat <- convert_h5ad(input_data)
+    seurat <- map_and_refine(seurat, ref_seurat)
+  }
+  return(seurat)
+}
+
+
+convert_h5ad <- function(h5ad_input) {
+  library(anndata)
+  adata <- read_h5ad(h5ad_input)
+  counts <- t(as.matrix(adata$X))
+  colnames(counts) <- adata$obs_names
+  rownames(counts) <- adata$var_names
+  seurat <- CreateSeuratObject(counts = counts, meta.data = adata$obs)
+  return(seurat)
+}
+
+
+backend_integration_module <- function(pre_integrated_seurat) {
+  #read in input seurat metadata
+  meta <- pre_integrated_seurat@meta.data
+  meta <- meta %>% mutate_all(as.character)
+
+  orig <- names(table(meta$orig.ident))
+  cur_meta <- data.frame(matrix(ncol = 7, nrow = length(orig)))
+  colnames(cur_meta) <- c("accession", "disease", "tissue",
+                        "age", "gender", "gse_alias",
+                        "cells")
+
+  #meta sheet
+  for (i in 1:length(orig)) {
+    tmp <- meta[meta$orig.ident == orig[i], ]
+    tis <- unique(tmp$TISSUE)
+    if (length(tis) > 1) {
+      print("Concatenate TISSUE")
+      tis <- paste(unlist(tis), collapse = ";")
+    }
+    cur_meta[i, ] <- c(unique(tmp$orig.ident), unique(tmp$DISEASE),
+                      tis,
+                      unique(tmp$age),
+                      unique(tmp$gender), unique(tmp$gse_alias),
+                      nrow(tmp))
+  }
+  return(cur_meta)
+}
+```
+
+
+```{r}
+disease_conversion <- function(meta, col_idx) {
+  idx <- grep("Normal|Control|Healthy|neg|ipsc", meta[, col_idx], ignore.case = T)
+  meta[, col_idx][idx] <- "Normal"
+  idx <- grep("non-small cell lung carcinoma|NSC", meta[, col_idx], ignore.case = T)
+  meta[, col_idx][idx] <- "NSCLC"
+  idx <- grep("small cell lung carcinoma|SCLC", meta[, col_idx], ignore.case = T)
+  meta[, col_idx][idx] <- "SCLC"
+  idx <- grep("lung adenocarcinoma|LUAD", meta[, col_idx], ignore.case = T)
+  meta[, col_idx][idx] <- "LUAD"
+  idx <- grep("COVID|SARS|COV", meta[, col_idx], ignore.case = T)
+  meta[, col_idx][idx] <- "COVID-19"
+  idx <- grep("idiopathic pulmonary fibrosis|IPF", meta[, col_idx], ignore.case = T)
+  meta[, col_idx][idx] <- "IPF"
+  idx <- grep("chronic obstructive pulmonary disease|COPD",
+              meta[, col_idx], ignore.case = T)
+  meta[, col_idx][idx] <- "COPD"
+  idx <- grep("Non-specific interstitial pneumonia|Nonspecific interstitial pneumonia|NSIP",
+              meta[, col_idx], ignore.case = T)
+  meta[, col_idx][idx] <- "NSIP"
+  idx <- grep("interstitial lung disease|ILD", meta[, col_idx], ignore.case = T)
+  meta[, col_idx][idx] <- "ILD"
+  idx <- grep("hypersensitivity pneumonitis|HP", meta[, col_idx], ignore.case = T)
+  meta[, col_idx][idx] <- "HP"
+  idx <- grep("sacroidosis|sarcoidosis", meta[, col_idx], ignore.case = T)
+  meta[, col_idx][idx] <- "Sarcoidosis"
+  idx <- grep("scleroderma", meta[, col_idx], ignore.case = T)
+  meta[, col_idx][idx] <- "Scleroderma"
+  return(meta[, col_idx])
+}
+
+extract_metadata <- function(meta = meta) {
+  #filter metadata columns
+  pat1 <- "dis|infection|age|tissue|sex|gender|ENA|sample|donor|origin|"
+  pat2 <- "Feature|Count|umi|orig.ident|celltype|gene|gse|mt|percent|pct|mito"
+  pat <- paste0(pat1, pat2)
+  idx <- grep(pat, colnames(meta), ignore.case = T)
+  meta <- meta[, idx]
+  idx <- grep("ontology|term|score|CFauc|GOBPauc", colnames(meta), invert = T)
+  meta <- meta[, idx]
+  #nCount/nFeature
+  if(length(grep("nCount_RNA|nFeature_RNA", colnames(meta), ignore.case = T)) == 0) {
+    col_idx <- grep("nUMIs|n_gene", colnames(meta), ignore.case = T)
+    colnames(meta)[col_idx] <- "nFeature_RNA"
+    col_idx <- grep("n_count", colnames(meta), ignore.case = T)
+    colnames(meta)[col_idx] <- "nCount_RNA"
+  }
+  #adjust DISEASE
+  col_idx <- grep("disease", colnames(meta), ignore.case = T)
+  if (length(col_idx) > 1) {
+    s_idx <- grep("disease", colnames(meta))
+    g_idx <- grep("DISEASE", colnames(meta))
+    meta[, g_idx] <- meta[, s_idx]
+    meta[, s_idx] <- NULL
+  } else if (length(col_idx) == 0) {
+    meta$DISEASE <- "Normal"
+  } else {
+    colnames(meta)[col_idx] <- "DISEASE"
+  }
+  col_idx <- grep("disease", colnames(meta), ignore.case = T)
+  meta[, col_idx] <- as.character(meta[, col_idx])
+  meta[, col_idx] <- disease_conversion(meta, col_idx)
+
+  #adjust gender
+  col_idx <- grep("gender|sex", colnames(meta), ignore.case = T)
+  if (length(col_idx) > 1) {
+    s_idx <- grep("sex", colnames(meta), ignore.case = T)
+    g_idx <- grep("gender", colnames(meta), ignore.case = T)
+    meta[, g_idx] <- meta[, s_idx]
+    meta[, s_idx] <- NULL
+  } else if (length(col_idx) == 0) {
+    meta$gender <- NA
+  } else {
+    colnames(meta)[col_idx] <- "gender"
+  }
+  col_idx <- grep("gender|sex", colnames(meta), ignore.case = T)
+  meta[, col_idx] <- as.character(meta[, col_idx])
+  idx <- grep("female|f", meta[, col_idx], ignore.case = T)
+  meta[, col_idx][idx] <- "F"
+  idx <- grep("mal|m", meta[, col_idx], ignore.case = T)
+  meta[, col_idx][idx] <- "M"
+
+  #adjust tissue
+  col_idx <- grep("TISSUE", colnames(meta), ignore.case = T)
+  if (length(col_idx) > 1) {
+    s_idx <- grep("tissue", colnames(meta))
+    g_idx <- grep("TISSUE", colnames(meta))
+    meta[, g_idx] <- meta[, s_idx]
+    meta[, s_idx] <- NULL
+  } else if (length(col_idx) == 0) {
+     meta$TISSUE <- NA
+  } else {
+    colnames(meta)[col_idx] <- "TISSUE"
+  }
+  #adjust age
+  col_idx <- grep("age", colnames(meta), ignore.case = T)
+  if (length(col_idx) > 1) {
+    s_idx <- grep("Age", colnames(meta))
+    g_idx <- grep("age", colnames(meta))
+    meta[, g_idx] <- meta[, s_idx]
+    meta[, s_idx] <- NULL
+  } else if (length(col_idx) == 0) {
+    meta$age <- NA
+  } else {
+    colnames(meta)[col_idx] <- "age"
+  }
+  col_idx <- grep("age", colnames(meta), ignore.case = T)
+  meta[, col_idx] <- as.character(meta[, col_idx])
+  meta[, col_idx] <- gsub("-year-old human stage", "", meta[, col_idx])
+  meta[, col_idx] <- gsub("eighth.*", "80", meta[, col_idx])
+  meta[, col_idx] <- gsub("seventh.*", "70", meta[, col_idx])
+  meta[, col_idx] <- gsub("sixth.*", "60", meta[, col_idx])
+  meta[, col_idx] <- gsub("fifth.*", "50", meta[, col_idx])
+  meta[, col_idx] <- gsub("fourth.*", "40", meta[, col_idx])
+  meta[, col_idx] <- gsub("human middle.*", "medium", meta[, col_idx])
+  return(meta)
+}
+```
+
+```{r}
+harmony_merge <- function(merged_seurat) {
+  merged_seurat <- routine_QC(merged_seurat)
+  library(harmony)
+  merged_seurat <- RunHarmony(merged_seurat,
+                    "orig.ident", assay.use = "RNA")
+  return(merged_seurat)
+}
+
+
+
+genes_of_inerest_plot <- function(seurat, genes_list) {
+
+}
+
+fetch_by_cluster <- function(seurat_object = seurat, gene_list = gene_list,
+                             gene1 = s_gene, clu = clu,
+                             diag = "young", method = "pearson") {
+  #TODO
+  c_names <- gene_list
+  #names of gene of interest
+  c_names <- c(c_names, gene1)
+  #specific cluster and specific Diagnosis: IPF/Control
+  tmp <- FetchData(seurat_object,
+                cells = colnames(seurat_object)
+                [seurat_object$celltype == clu &
+                seurat_object$Diagnosis == diag],
+                vars = c_names)
+  #calculate correlation ignoring rows/columns with zeros
+  c <- cor(tmp, method = method)
+  x <- c[, gene1]
+  return(x[names(x) != gene1])
+}
+
+single_gene_by_cluster <- function(seurat_object = seurat, gene1 = gene1,
+                                   cluster = cluster, method = "pearson") {
+  #specific cluster and specific Diagnosis: IPF/Control
+  tmp <- FetchData(object = seurat_object,
+                cells = colnames(seurat_object)
+                [seurat_object$celltype == cluster],
+                vars = gene1)
+  #calculate correlation ignoring rows/columns with zeros
+  return(sum(tmp))
+}
+
+exp <- lapply(levels(seurat), single_gene_by_cluster, seurat,
+              gene1 = s_gene, method = "pearson")
+
+
+#extract correlation matrix with s_gene per Ident
+cor_gene_exp_per_Ident <- function(cluster_list, fetch_by_cluster,
+                                  seurat_object = seurat, gene_list = gene_list,
+                                  gene1 = s_gene, diag = diag,
+                                  method = method) {
+    #get correlations of each gene of interest in every cell
+    m <- lapply(cluster_list, fetch_by_cluster,
+                seurat_object = seurat_object,
+                gene_list = gene_list,
+                gene1 = gene1, diag = diag, method = method)
+    whole_m <- do.call(rbind, m)
+    rownames(whole_m) <- cluster_list
+    return(whole_m)
+}
+
+bulk_vionlin <- function(seurat, goi = goi[1]) {
+    p <- VlnPlot(seurat,
+                features = goi, group.by = "celltype", split.by = "DISEASE",
+                same.y.lims = TRUE,
+                )
+    return(p)
+}
+bulk_feature <- function(seurat_object = ILD_seurat, goi,
+                                 reduction = "umap", param = param, doi = doi) {
+  ps <- list()
+  #Featureplot with
+  for (i in 1:length(doi)) {
+    p1 <- FeaturePlot(seurat_object,
+            cells = colnames(seurat_object)
+            [seurat_object[[param]] == doi[i]],
+            features = goi,
+            reduction = reduction, pt.size = 1.0, repel = TRUE,
+            label = TRUE, label.size = 6) +
+            ggtitle(paste0(doi[i]))
+    ps[[i]] <- p1
+  }
+  return(ps)
+}
+
+feature_and_dim_plot <- function(seurat_object = ILD_seurat, goi,
+                                 reduction = "umap", param = param, doi = doi) {
+  #Featureplot with
+  p1 <- FeaturePlot(seurat_object,
+            cells = colnames(seurat_object)
+            [seurat_object[[param]] == doi],
+            features = goi,
+            reduction = reduction, pt.size = 1.0, repel = TRUE,
+            label = TRUE, label.size = 6)
+  p2 <- DimPlot(object = seurat_object,
+              reduction = reduction, pt.size = 0.3, repel = TRUE,
+              label = TRUE, label.size = 2)
+  p <- p1 + p2
+  return(p)
+}
+```
+
+
+# Now Let's Present Our Demo
+# The reference seurat object we are using here is comes from Human Lung Cell Atlas (HLCA) https://hlca.ds.czbiohub.org/
+# The experiment we are using this time is GSE143423: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE143423
+
+
+```{r}
+setwd("/home/zhang_jiaxuan/Lung_DB/demo")
+all_f <- list.files("/home/zhang_jiaxuan/Lung_DB/demo/GSE143423", full.names = TRUE)
+all_f
+ref_seurat <- read_rds("/home/zhang_jiaxuan/Synapse/Ref_harmony_seurat.rds")
+download_meta <- "/home/zhang_jiaxuan/Lung_DB/demo/metadata_GSE143423.csv"
+seurat <- pre_integration_module(input_data = all_f[1],
+                                input_meta = all_f[2],
+                                download_meta = download_meta,
+                                req_organ = "lung", ref_seurat = ref_seurat)
+
+meta <- process_download_meta(download_meta)
+unique(seurat$orig.ident)
+seurat <- harmony_merge(seurat)
+seurat <- RunUMAP(seurat, reduction = "harmony", dims = 1:20)
+write_rds(seurat, file.path(getwd(), paste0(unique(seurat$gse_alias), "_harmony_seurat.rds")))
+Idents(seurat) <- seurat$celltype
+p <- DimPlot(object = seurat,
+              reduction = "umap", pt.size = 0.3, repel = TRUE,
+              label = TRUE, label.size = 2) +
+              ggtitle(paste0("UMAP Plot of Experiment: ", unique(seurat$gse_alias))) +
+              theme(axis.text = element_text(size = 12, angle = 45),
+                  legend.key.size = unit(1, "cm"),
+                  legend.text = element_text(size = 7),
+                  plot.title = element_text(hjust = 0.5,
+                              color = "black"))
+p_title <- file.path(getwd(), paste0(unique(seurat$gse_alias), "_UMAP.pdf"))
+ggsave(filename = p_title,
+     plot = p, width = 16, height = 10, units = "in")
+
+R.utils::printf("Select One or More Celltypes of Interest for In-depth Analysis: \n")
+sub_seurat <- sub_celltype(seurat, unique(seurat$celltype)[1:20])
+p <- DimPlot(object = sub_seurat,
+              reduction = "umap", pt.size = 0.3, repel = TRUE,
+              label = TRUE, label.size = 2) +
+              ggtitle(paste0("UMAP Plot of Experiment: ", unique(sub_seurat$gse_alias))) +
+              theme(axis.text = element_text(size = 12, angle = 45),
+                  legend.key.size = unit(1, "cm"),
+                  legend.text = element_text(size = 7),
+                  plot.title = element_text(hjust = 0.5,
+                              color = "black"))
+p_title <- file.path(getwd(), paste0(unique(sub_seurat$gse_alias), "_CTOI_UMAP.pdf"))
+ggsave(filename = p_title,
+     plot = p, width = 16, height = 10, units = "in")
+
+db <- backend_integration_module(seurat)
+write.csv(db, file.path(getwd(), paste0(unique(seurat$gse_alias), "_db_info.csv")))
+```
+
+
+
+
+Manual Add Metadata from GSE
+```{r}
+table(seurat$orig.ident)
+table(seurat$type)
+orig <- table(seurat$type)
+types <- c("Patient4_Normal", "Patient5_Normal", "Patient6_Normal",
+           "Patient2_Normal ", "Patient2_Tumor", "Patient7_Normal",
+           "Patient8_Normal", "Patient9_Normal", "Patient10_Normal",
+           "Patient1_Normal", "Patient1_Tumor", "Patient3_Normal", "Patient3_Tumor")
+whole <- ""
+for (i in 1:length(types)) {
+  #print(types[i])
+  tmp <- replicate(n = orig[[i]], types[i])
+  #print(orig[[i]])
+  whole <- c(whole, tmp)
+}
+head(whole)
+types <- whole[-1]
+names(types) <- colnames(seurat)
+seurat <- AddMetaData(seurat, types, col.name = "type")
+rownames(seurat)
+
+seurat <- readRDS("/home/zhang_jiaxuan/Fibroblast_Lung_DB/Others/pre_processed/GSE139944/GSM4150378_sciPlex3_cds_all_cells.RDS")
+head(seurat)
+seurat <- AddMetaData(seurat, "IPF_lung_epithelium", col.name = "celltype")
+seurat <- AddMetaData(seurat, "fibroblast_myofibroblasts", col.name = "type")
+seurat$type <- "Osteosarcoma_tumor"
+
+
+write_rds(seurat, "/home/zhang_jiaxuan/Fibroblast_Lung_DB/Tumor_cells/GSE179681_harmony_seurat.rds")
+
+
+for (i in samples) {
+  tmp <- grep("cellname", i, ignore.case = TRUE)
+  if (length(tmp) != 0) {
+    meta <- read.delim(i)
+  }
+  else {
+    counts <- read.delim(i, row.names = 1)
+    #rownames(counts) <- counts$GENE
+    #counts <- counts[, 2:ncol(counts)]
+
+
+    sample <- gsub("^.*/", "", i)
+    proname <- strsplit(sample, split = "_")[[1]][1]
+    seurat <- CreateSeuratObject(counts, min.cells = 10,
+                             min.features = 200, names.delim = "_",
+                             project = "GSE171524")
+    #seurat <- routine_QC(seurat)
+    types <- strsplit(sample, split = "_")[[1]][2]
+    seurat <- AddMetaData(seurat, types, col.name = "type")
+    ps <- c(ps, seurat)
+  }
+}
+
+seurat <- merge(ps[[1]], ps[-1])
+head(rownames(seurat))
+seurat <- routine_QC(seurat)
+library(harmony)
+seurat <- RunHarmony(seurat, "orig.ident", assay.use = "RNA")
+
+write_rds(seurat, "/home/zhang_jiaxuan/Fibroblast_Lung_DB/resistant_cell/pre_processed/GSE149215_harmony_seurat.rds")
+
+list.files("/home/zhang_jiaxuan/Fibroblast_Lung_DB/lung_tissue/pre_processed/GSE150050/GNI1_P004/")
+
+
+
+samples <- list.files("/home/zhang_jiaxuan/Fibroblast_Lung_DB/lung_adenocarcinoma/pre_processed/GSE117450/", full.names = TRUE)
+ps <- list()
+m <- lapply(samples[-1], read.delim, sep = ",")
+str(m)
+counts <- do.call(rbind, m)
+
+head(meta, 5)
+
+head(seurat)
+gse_list[2]
+
+meta <- meta[match(colnames(seurat), meta$cell_id), ]
+
+table(meta$sample_id)
+table(meta$sex)
+table(meta$age)
+
+names(meta$type) <- colnames(seurat_2)
+head(counts)
+
+library(R.utils)
+dir <- "/home/zhang_jiaxuan/Fibroblast_Lung_DB/NSCLC/pre_processed/GSE140819/"
+samples <- list.files(dir, pattern = "NSCLC", full.names = TRUE)
+
+ifmeta <- FALSE
+ps <- list()
+
+h5_with_metadata <- function(samples) {
+  ifmeta <- FALSE
+  ps <- list()
+  for (i in samples) {
+    types <- tools::file_ext(i)
+    sample <- gsub("^.*/", "", i)
+    proname <- strsplit(sample, split = "_")[[1]][1]
+
+    if (types == "h5") {
+      counts <- Read10X_h5(i)
+      seurat <- CreateSeuratObject(counts, min.cells = 10,
+                              min.features = 200, names.delim = "_",
+                              project = proname)
+      types <- strsplit(sample, split = "_")[[1]][2]
+      seurat <- AddMetaData(seurat, types, col.name = "type")
+    }
+    if (ifmeta == TRUE) {
+      meta <- meta[match(colnames(seurat), meta$X), ]
+      names(meta$annotate) <- colnames(seurat)
+      names(meta$doublet) <- colnames(seurat)
+      seurat <- AddMetaData(seurat, meta$annotate, col.name = "celltype")
+      seurat <- AddMetaData(seurat, meta$doublet, col.name = "doublet")
+      ps <- c(ps, seurat)
+      ifmeta <- FALSE
+    }
+    if (types == "gz"){
+      meta <- read.delim(i, sep = ",")
+      print(head(meta))
+      ifmeta <- TRUE
+    }
+  }
+
+  length(ps)
+  seurat <- merge(ps[[1]], ps[-1])
+  return(seurat)
+}
+
+seurat <- h5_with_metadata(samples)
+head(seurat)
+table(seurat$orig.ident)
+seurat <- routine_QC(seurat)
+library(harmony)
+seurat <- RunHarmony(seurat, "orig.ident", assay.use = "RNA")
+
+
+counts <- read.delim("/home/zhang_jiaxuan/Fibroblast_Lung_DB/T_cells/pre_processed/GSE178837/GSE178837_plate_matrix.csv.gz", sep = ",", row.names = 1)
+head(counts)
+counts <- read.delim("/home/zhang_jiaxuan/Fibroblast_Lung_DB/T_cells/pre_processed/GSE99254/GSE99254_NSCLC.TCell.S12346.count.txt.gz", row.names = 1, header = TRUE)
+colnames(counts)
+meta <- read.delim("/home/zhang_jiaxuan/Fibroblast_Lung_DB/lung/GSE135893/GSE135893_IPF_metadata.csv.gz", sep = ",")
+head(meta)
+table(meta$sample_type)
+counts <- Read10X("/home/zhang_jiaxuan/Fibroblast_Lung_DB/Others/pre_processed/GSE160794/GSM4879379")
+seurat <- CreateSeuratObject(counts = counts, min.cells = 10,
+                             min.features = 200, names.delim = "_",
+                             project = "GSE135893")
+head(seurat)
+meta <- meta[match(colnames(seurat), meta$X),]
+names(meta$Diagnosis) <- colnames(seurat)
+names(meta$celltype) <- colnames(seurat)
+seurat <- AddMetaData(seurat, meta$Diagnosis, col.name = "disease")
+seurat <- AddMetaData(seurat, meta$celltype, col.name = "celltype")
+
+seurat <- test
+"/home/zhang_jiaxuan/Fibroblast_Lung_DB/IPF/pre_processed/GSE159354/GSM4827170_SAM24366696_filtered_feature_bc_matrix.h5"
+
+counts <- read.delim("/home/zhang_jiaxuan/Fibroblast_Lung_DB/IPF/GSE145439/GSM4318408/GSM4318408_patient_6_genes.mtx.gz")
+head(counts)
+meta <- read.delim("/home/zhang_jiaxuan/Fibroblast_Lung_DB/T_cells/pre_processed/GSE124675/GSM3539242_DM009_meta_data.csv.gz", sep = ",")
+head(meta)
+table(meta$samples)
+seurat <- CreateSeuratObject(counts, min.cells = 10,
+                             min.features = 200, names.delim = "_",
+                             project = "GSE192591")
+head(rownames(seurat))
+meta <- meta[match(colnames(seurat), meta$sampleID), ]
+names(meta$celltypes) <- colnames(seurat)
+seurat <- AddMetaData(seurat, "lung_transplant", col.name = "type")
+seurat <- merge(seurat, seurat_2)
+head(seurat)
+
+seurat <- routine_QC(seurat)
+write_rds(seurat, "/home/zhang_jiaxuan/Fibroblast_Lung_DB/Others/pre_processed/GSE160794_harmony_seurat.rds")
+
+seurat <- RunHarmony(seurat, "orig.ident", assay.use = "RNA")
+table(seurat$orig.ident)
+```
+
+```{r}
+temp_dir <- "/Users/justinzhang/Downloads/LungDB_DB/api/app/analyze/temp/temp/"
+temp <- readRDS("/Users/justinzhang/Downloads/LungDB_DB/api/app/analyze/temp/temp/temp_harmony_seurat.rds")
+celltype_table <- table(temp$celltype)
+rownames(celltype_table) <- names(celltype_table)
+write.table(celltype_table, paste0(temp_dir, "temp_celltype_table.csv"), row.names = FALSE, sep = ",")
+meta <- c(nrow(temp), ncol(temp), )
+```
+
+
+Counts_with_metadata
+
+```{r}
+dir <- "/home/zhang_jiaxuan/Fibroblast_Lung_DB/lung_adenocarcinoma/pre_processed/GSE154870"
+meta <- "/home/zhang_jiaxuan/Fibroblast_Lung_DB/lung_adenocarcinoma/pre_processed/GSE117450/GSE117450_cellular_barcodes_and_descriptions.txt.gz"
+meta <- read.delim(meta)
+head(meta)
+samples <- list.files(dir)
+samples <- samples[grep("GSM", samples)]
+
+ps <- list()
+counts_with_metadata <- function(samples) {
+  ifmeta <- FALSE
+  ps <- list()
+  for (i in samples) {
+    sample <- gsub("^.*/", "", i)
+    ct <- grep("count", sample)
+    if (length(ct) == 0) {
+      print(sample)
+      meta <- read.delim(file.path(dir, sample), sep = ",")
+      print("Append Meta Data")
+      meta <- meta[match(colnames(seurat), meta$cell_name), ]
+      seurat <- RenameCells(seurat, meta$barcode_sequence)
+      ps <- c(ps, seurat)
+      ifmeta <- FALSE
+    }
+    if (length(ct) > 0) {
+      sample <- gsub("^.*/", "", i)
+      proname <- strsplit(sample, split = "_")[[1]][1]
+      print(proname)
+      counts <- read.delim(file.path(dir, sample), sep = ",", row.names = 1)
+      counts <- convert_ENSMBL(counts)
+      seurat <- CreateSeuratObject(counts, min.cells = 10,
+                            min.features = 200, names.delim = "_",
+                            project = proname)
+      seurat$orig.ident <- proname
+      types <- strsplit(sample, split = "_")[[1]][2]
+      seurat <- AddMetaData(seurat, types, col.name = "type")
+    }
+  }
+  return(ps)
+}
+
+ps <- counts_with_metadata(samples)
+
+seurat <- merge(ps[[1]], ps[-1])
+
+seurat <- routine_QC(seurat)
+
+library(harmony)
+seurat <- RunHarmony(seurat, "orig.ident", assay.use = "RNA")
+head(seurat)
+write_rds(seurat, "/home/zhang_jiaxuan/Fibroblast_Lung_DB/lung_adenocarcinoma/pre_processed/GSE154870_harmony_seurat.rds")
+
+```
+
+nfeatures_per_cell >= 200, ncell_per_genes >= 10
+
+
+ls *.tar.gz |xargs -n1 tar -xvf
+
+ls -d */filtered_feature_bc_matrix |while read id;do (cp -r  $id $matrix/{id%%/*} );done
+
+gzip -r ./
+
+find . -name '*.bam' |while read fn;do (bamToFastq -i $fn -fq cut -d'/' -f3 );done

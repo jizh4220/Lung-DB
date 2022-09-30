@@ -72,13 +72,13 @@
     <el-dialog title="Add" :visible.sync="addDialog">
       <el-form ref="form" :model="post" label-width="200px" size="normal">
         <el-form-item label="postCode">
-          <el-input v-model="post.postCode"/>
+          <el-input v-model="post.postCode" />
         </el-form-item>
         <el-form-item label="postName">
-          <el-input v-model="post.postName"/>
+          <el-input v-model="post.postName" />
         </el-form-item>
         <el-form-item label="postSort">
-          <el-input v-model="post.postSort"/>
+          <el-input v-model="post.postSort" />
         </el-form-item>
         <el-form-item>
           <el-button type="primary" size="normal" @click="onSubmit">Submit</el-button>
@@ -90,13 +90,13 @@
     <el-dialog title="Update" :visible.sync="updateDialog">
       <el-form ref="form" :model="post" label-width="200px" size="normal">
         <el-form-item label="postCode">
-          <el-input v-model="post.postCode"/>
+          <el-input v-model="post.postCode" />
         </el-form-item>
         <el-form-item label="postName">
-          <el-input v-model="post.postName"/>
+          <el-input v-model="post.postName" />
         </el-form-item>
         <el-form-item label="postSort">
-          <el-input v-model="post.postSort"/>
+          <el-input v-model="post.postSort" />
         </el-form-item>
         <el-form-item>
           <el-button type="primary" size="normal" @click="onSubmitUpdate">Submit</el-button>
@@ -149,7 +149,7 @@ export default {
       // modify
       getById(id).then(res => {
         // eslint-disable-next-line no-empty
-        if (res.code !== 20000) {
+        if (res.code !== 'success') {
           this.$message.success(res.error)
         }
         this.post = res.data
@@ -194,7 +194,7 @@ export default {
     onSubmit() {
       save(this.post).then(res => {
         // console.log(res)
-        if (res.code !== 20000) {
+        if (res.code !== 'success') {
           this.$message.error(res.message)
           this.fetchData()
           this.addDialog = false
@@ -221,3 +221,13 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.pagination-container {
+  background: #fff;
+  padding: 32px 16px;
+}
+.pagination-container.hidden {
+  display: none;
+}
+</style>

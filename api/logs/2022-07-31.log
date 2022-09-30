@@ -1,0 +1,107 @@
+2022/07/31 22:37:13 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/31 22:43:48 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/31 22:43:48 werkzeug _internal.py[224] _log() INFO:  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022/07/31 22:43:48 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/31 22:43:48 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/31 22:43:57 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/31 22:43:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:43:57] "[33mGET / HTTP/1.1[0m" 404 -
+2022/07/31 22:43:57 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/31 22:43:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:43:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022/07/31 22:44:06 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/31 22:44:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:44:06] "[33mGET /authors HTTP/1.1[0m" 404 -
+2022/07/31 22:44:24 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/31 22:44:24 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:44:24] "[33mGET / HTTP/1.1[0m" 404 -
+2022/07/31 22:44:24 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/31 22:44:24 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:44:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022/07/31 22:49:00 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/31 22:49:00 flask_migrate __init__.py[100] wrapped() ERROR: Error: Directory migrations already exists and is not empty
+2022/07/31 22:49:11 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/31 22:49:24 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/31 22:54:45 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/31 22:54:45 werkzeug _internal.py[224] _log() INFO:  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022/07/31 22:54:45 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/31 22:54:45 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/31 22:54:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:54:50] "GET / HTTP/1.1" 200 -
+2022/07/31 22:54:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:54:50] "GET /static/css/app.3ee760cd.css HTTP/1.1" 200 -
+2022/07/31 22:54:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:54:50] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2022/07/31 22:54:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:54:50] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2022/07/31 22:54:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:54:50] "GET /static/js/app.9bf881e5.js HTTP/1.1" 200 -
+2022/07/31 22:54:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:54:50] "GET /static/js/chunk-elementUI.6f38d267.js HTTP/1.1" 200 -
+2022/07/31 22:54:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:54:50] "GET /static/js/chunk-libs.d8cb24d4.js HTTP/1.1" 200 -
+2022/07/31 22:54:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:54:50] "GET /static/js/chunk-aac4c5ea.28029e75.js HTTP/1.1" 200 -
+2022/07/31 22:54:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:54:50] "GET /static/css/chunk-aac4c5ea.b0e29851.css HTTP/1.1" 200 -
+2022/07/31 22:54:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:54:50] "GET /?imageView2/1/w/80/h/80 HTTP/1.1" 200 -
+2022/07/31 22:54:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:54:50] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2022/07/31 22:55:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:05] "GET / HTTP/1.1" 200 -
+2022/07/31 22:55:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:05] "GET /static/css/app.3ee760cd.css HTTP/1.1" 200 -
+2022/07/31 22:55:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:05] "GET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1" 200 -
+2022/07/31 22:55:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:05] "GET /static/css/chunk-libs.3dfb7769.css HTTP/1.1" 200 -
+2022/07/31 22:55:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:05] "GET /static/js/app.9bf881e5.js HTTP/1.1" 200 -
+2022/07/31 22:55:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:05] "GET /static/js/chunk-libs.d8cb24d4.js HTTP/1.1" 200 -
+2022/07/31 22:55:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:05] "GET /static/js/chunk-elementUI.6f38d267.js HTTP/1.1" 200 -
+2022/07/31 22:55:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:05] "GET /static/css/chunk-aac4c5ea.b0e29851.css HTTP/1.1" 200 -
+2022/07/31 22:55:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:05] "GET /static/js/chunk-aac4c5ea.28029e75.js HTTP/1.1" 200 -
+2022/07/31 22:55:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:06] "GET /?imageView2/1/w/80/h/80 HTTP/1.1" 200 -
+2022/07/31 22:55:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:06] "GET /static/fonts/element-icons.535877f5.woff HTTP/1.1" 200 -
+2022/07/31 22:55:24 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:24] "GET /static/css/chunk-9ea35268.5cd9884a.css HTTP/1.1" 200 -
+2022/07/31 22:55:24 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:24] "GET /static/js/chunk-9ea35268.c9379e3c.js HTTP/1.1" 200 -
+2022/07/31 22:55:27 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:27] "GET /static/js/chunk-3de9e838.5d785be1.js HTTP/1.1" 200 -
+2022/07/31 22:55:28 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/31 22:55:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:28] "[33mGET /api/vue-admin-template/table/list HTTP/1.1[0m" 404 -
+2022/07/31 22:55:36 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/31 22:55:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:36] "[36mGET /?imageView2/1/w/80/h/80 HTTP/1.1[0m" 304 -
+2022/07/31 22:55:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:36] "[33mGET /api/vue-admin-template/table/list HTTP/1.1[0m" 404 -
+2022/07/31 22:55:39 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/31 22:55:39 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:39] "[36mGET /?imageView2/1/w/80/h/80 HTTP/1.1[0m" 304 -
+2022/07/31 22:55:39 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:39] "[33mGET /api/vue-admin-template/table/list HTTP/1.1[0m" 404 -
+2022/07/31 22:55:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:40] "GET /static/css/chunk-fda0f49e.e7da979c.css HTTP/1.1" 200 -
+2022/07/31 22:55:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:40] "GET /static/js/chunk-fda0f49e.3872c7e0.js HTTP/1.1" 200 -
+2022/07/31 22:55:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:40] "GET /static/js/chunk-2d0c1b58.27c5426d.js HTTP/1.1" 200 -
+2022/07/31 22:55:42 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:42] "GET /static/js/chunk-2d228ecf.900ede20.js HTTP/1.1" 200 -
+2022/07/31 22:55:43 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:43] "[31m[1mPOST /api/post/page HTTP/1.1[0m" 405 -
+2022/07/31 22:55:46 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:46] "GET /static/js/chunk-175bd8ec.b4a4a0da.js HTTP/1.1" 200 -
+2022/07/31 22:55:55 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:55] "GET /static/css/chunk-5027c478.0e433876.css HTTP/1.1" 200 -
+2022/07/31 22:55:55 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:55:55] "GET /static/js/chunk-5027c478.33261e65.js HTTP/1.1" 200 -
+2022/07/31 22:56:34 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:56:34] "[31m[1mPOST /api/author/ HTTP/1.1[0m" 405 -
+2022/07/31 22:56:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:56:40] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2022/07/31 22:56:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:56:40] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2022/07/31 22:56:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:56:40] "[36mGET /static/css/chunk-9ea35268.5cd9884a.css HTTP/1.1[0m" 304 -
+2022/07/31 22:56:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:56:40] "[36mGET /static/css/app.3ee760cd.css HTTP/1.1[0m" 304 -
+2022/07/31 22:56:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:56:40] "[36mGET /static/css/chunk-aac4c5ea.b0e29851.css HTTP/1.1[0m" 304 -
+2022/07/31 22:56:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:56:40] "[36mGET /static/css/chunk-fda0f49e.e7da979c.css HTTP/1.1[0m" 304 -
+2022/07/31 22:56:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:56:40] "[36mGET /static/css/chunk-5027c478.0e433876.css HTTP/1.1[0m" 304 -
+2022/07/31 22:57:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:57:00] "[36mGET / HTTP/1.1[0m" 304 -
+2022/07/31 22:57:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:57:00] "[36mGET /static/css/app.3ee760cd.css HTTP/1.1[0m" 304 -
+2022/07/31 22:57:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:57:00] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2022/07/31 22:57:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:57:00] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2022/07/31 22:57:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:57:00] "[36mGET /static/js/app.9bf881e5.js HTTP/1.1[0m" 304 -
+2022/07/31 22:57:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:57:00] "[36mGET /static/js/chunk-elementUI.6f38d267.js HTTP/1.1[0m" 304 -
+2022/07/31 22:57:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:57:00] "[36mGET /static/js/chunk-libs.d8cb24d4.js HTTP/1.1[0m" 304 -
+2022/07/31 22:57:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:57:00] "[36mGET /static/css/chunk-5027c478.0e433876.css HTTP/1.1[0m" 304 -
+2022/07/31 22:57:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:57:00] "[36mGET /static/js/chunk-5027c478.33261e65.js HTTP/1.1[0m" 304 -
+2022/07/31 22:57:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:57:00] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2022/07/31 22:57:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:57:00] "[36mGET /?imageView2/1/w/80/h/80 HTTP/1.1[0m" 304 -
+2022/07/31 22:57:08 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 22:57:08] "[31m[1mPOST /api/author/ HTTP/1.1[0m" 405 -
+2022/07/31 23:24:43 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/__init__.py', reloading
+2022/07/31 23:24:43 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/31 23:24:43 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/07/31 23:25:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 23:25:04] "[36mGET / HTTP/1.1[0m" 304 -
+2022/07/31 23:25:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 23:25:04] "[36mGET /static/css/app.3ee760cd.css HTTP/1.1[0m" 304 -
+2022/07/31 23:25:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 23:25:04] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2022/07/31 23:25:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 23:25:04] "[36mGET /static/js/app.9bf881e5.js HTTP/1.1[0m" 304 -
+2022/07/31 23:25:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 23:25:04] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2022/07/31 23:25:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 23:25:04] "[36mGET /static/js/chunk-elementUI.6f38d267.js HTTP/1.1[0m" 304 -
+2022/07/31 23:25:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 23:25:04] "[36mGET /static/js/chunk-libs.d8cb24d4.js HTTP/1.1[0m" 304 -
+2022/07/31 23:25:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 23:25:04] "[36mGET /static/css/chunk-5027c478.0e433876.css HTTP/1.1[0m" 304 -
+2022/07/31 23:25:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 23:25:04] "[36mGET /static/js/chunk-5027c478.33261e65.js HTTP/1.1[0m" 304 -
+2022/07/31 23:25:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 23:25:04] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2022/07/31 23:25:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 23:25:04] "[36mGET /?imageView2/1/w/80/h/80 HTTP/1.1[0m" 304 -
+2022/07/31 23:25:09 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 23:25:09] "[31m[1mPOST /api/author/ HTTP/1.1[0m" 405 -
+2022/07/31 23:29:12 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 23:29:12] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/31 23:29:12 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [31/Jul/2022 23:29:12] "GET /author/ HTTP/1.1" 200 -
+2022/07/31 23:39:58 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accession/__init__.py', reloading
+2022/07/31 23:39:58 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/31 23:39:59 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/07/31 23:40:18 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accession/models.py', reloading
+2022/07/31 23:40:18 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/31 23:40:19 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC

@@ -1,0 +1,31 @@
+2022/09/23 00:44:39 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/09/23 00:44:39 werkzeug _internal.py[224] _log() INFO:  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022/09/23 00:44:39 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/09/23 00:44:39 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/09/23 00:44:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 00:44:51] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/09/23 00:44:52 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 00:44:52] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/09/23 00:47:17 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 00:47:17] "POST /accessiondata/analyze HTTP/1.1" 200 -
+2022/09/23 00:53:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 00:53:57] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/09/23 00:53:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 00:53:57] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/09/23 00:55:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 00:55:48] "POST /accessiondata/analyze HTTP/1.1" 200 -
+2022/09/23 00:55:52 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 00:55:52] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/09/23 00:56:07 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 00:56:07] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/09/23 01:21:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 01:21:14] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/09/23 01:21:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 01:21:14] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/09/23 04:56:43 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/09/23 04:56:43 werkzeug _internal.py[224] _log() INFO:  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022/09/23 04:56:43 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/09/23 04:56:43 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/09/23 04:56:58 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 04:56:58] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/09/23 04:56:58 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 04:56:58] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/09/23 05:01:20 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 05:01:20] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/09/23 05:01:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 05:01:48] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/09/23 05:04:21 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 05:04:21] "POST /accessiondata/analyze HTTP/1.1" 200 -
+2022/09/23 05:04:42 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 05:04:42] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/09/23 05:12:26 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 05:12:26] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/09/23 05:18:59 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 05:18:59] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/09/23 05:19:41 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 05:19:41] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/09/23 05:20:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 05:20:23] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/09/23 05:21:31 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 05:21:31] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/09/23 05:21:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 05:21:36] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/09/23 05:22:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [23/Sep/2022 05:22:48] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -

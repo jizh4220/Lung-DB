@@ -51,8 +51,145 @@ export const constantRoutes = [
       path: 'home',
       name: 'home',
       component: () => import('@/views/dashboard/index'),
-      meta: { title: 'Front Page', icon: 'home' }
+      meta: { title: 'Home Page', icon: 'el-icon-s-data' }
     }]
+  },
+
+  {
+    path: '/Acceesion DB',
+    component: Layout,
+    redirect: '/accessiondb',
+    name: 'accessiondb',
+    meta: { title: 'Acceesion DB', icon: 'el-icon-s-help' },
+    children: [
+      {
+        path: 'Accession',
+        name: 'Accession',
+        component: () => import('@/views/sample/index'),
+        meta: { title: 'Accession Table', icon: 'table' }
+      },
+      {
+        path: 'tissue',
+        name: 'tissue',
+        component: () => import('@/views/tissue/index'),
+        meta: { title: 'tissue layout', icon: 'table' }
+      },
+      {
+        path: 'disease',
+        name: 'disease',
+        component: () => import('@/views/disease/index'),
+        meta: { title: 'disease layout', icon: 'table' }
+      },
+      {
+        path: 'gender',
+        name: 'gender',
+        component: () => import('@/views/gender/index'),
+        meta: { title: 'gender layout', icon: 'table' }
+      },
+      {
+        path: 'age',
+        name: 'age',
+        component: () => import('@/views/age/index'),
+        meta: { title: 'age layout', icon: 'table' }
+      },
+      {
+        path: 'metadata',
+        name: 'metadata',
+        component: () => import('@/views/metadata/index'),
+        meta: { title: 'metadata layout', icon: 'table' }
+      }
+    ]
+  },
+
+  {
+    path: '/Analyze',
+    component: Layout,
+    children: [{
+      path: '/analyze',
+      name: 'analyze',
+      component: () => import('@/views/analyze/index'),
+      meta: { title: 'Analyze', icon: 'form' }
+    }]
+  },
+
+  {
+    path: '/DEmodules',
+    component: Layout,
+    redirect: '/@/views/deg_analysis/general',
+    name: 'Differential Expression',
+    meta: { title: 'Differential Expression', icon: 'el-icon-s-help' },
+    children: [
+      {
+        path: 'DEG',
+        name: 'DEG Analysis',
+        component: () => import('@/views/deg_analysis/DEG'),
+        meta: { title: 'DEG Analysis', icon: 'table' }
+      },
+      {
+        path: 'violin',
+        name: 'Violin',
+        component: () => import('@/views/deg_analysis/violin'),
+        meta: { title: 'Violin', icon: 'tree' }
+      },
+      {
+        path: 'fraction',
+        name: 'Fraction',
+        component: () => import('@/views/deg_analysis/fraction'),
+        meta: { title: 'Fraction', icon: 'table' }
+      },
+      {
+        path: 'go_analysis',
+        name: 'GO Enrichment',
+        component: () => import('@/views/deg_analysis/GO'),
+        meta: { title: 'GO Enrichment', icon: 'tree' }
+      },
+      {
+        path: 'kegg',
+        name: 'KEGG Enrichment',
+        component: () => import('@/views/deg_analysis/KEGG'),
+        meta: { title: 'KEGG Enrichment', icon: 'tree' }
+      }
+    ]
+  },
+
+  {
+    path: '/in_depth_analysis',
+    component: Layout,
+    redirect: '/@/views/in_depth_analysis/general',
+    name: 'In-depth Analysis',
+    meta: { title: 'In-depth Analysis', icon: 'form' },
+    children: [
+      {
+        path: 'CellChat',
+        name: 'CellChat',
+        component: () => import('@/views/in_depth_analysis/CellChat'),
+        meta: { title: 'CellChat', icon: 'table' }
+      },
+      {
+        path: 'Monocle',
+        name: 'Monocle',
+        component: () => import('@/views/in_depth_analysis/Monocle'),
+        meta: { title: 'Monocle', icon: 'tree' }
+      },
+      {
+        path: 'SCENIC',
+        name: 'SCENIC',
+        component: () => import('@/views/in_depth_analysis/SCENIC'),
+        meta: { title: 'SCENIC', icon: 'table' }
+      },
+      {
+        path: 'GRN',
+        name: 'GRN',
+        component: () => import('@/views/in_depth_analysis/GRN'),
+        meta: { title: 'GRN', icon: 'tree' }
+      },
+      {
+        path: 'Survival',
+        name: 'Survival Analysis',
+        component: () => import('@/views/in_depth_analysis/Survival'),
+        meta: { title: 'Survival Analysis', icon: 'tree' }
+      }
+    ]
   },
 
   {
@@ -161,7 +298,7 @@ export const constantRoutes = [
     ]
   },
  */
-  
+
   {
     path: '/books',
     component: Layout,
@@ -180,54 +317,20 @@ export const constantRoutes = [
         name: 'book',
         component: () => import('@/views/book/index'),
         meta: { title: 'book information', icon: 'table' }
-      },
+      }
     ]
   },
 
   {
-    path: '/study',
+    path: '/Accessiondata',
     component: Layout,
-    // redirect: '/book/author',
-    name: 'study',
-    meta: { title: 'Study Layout', icon: 'el-icon-s-help' },
-    children: [
-      {
-        path: 'sample',
-        name: 'sample',
-        component: () => import('@/views/sample/index'),
-        meta: { title: 'sample information', icon: 'table' }
-      },
-      {
-        path: 'tissue',
-        name: 'tissue',
-        component: () => import('@/views/tissue/index'),
-        meta: { title: 'tissue layout', icon: 'table' }
-      },
-      {
-        path: 'disease',
-        name: 'disease',
-        component: () => import('@/views/disease/index'),
-        meta: { title: 'disease layout', icon: 'table' }
-      },
-      {
-        path: 'gender',
-        name: 'gender',
-        component: () => import('@/views/gender/index'),
-        meta: { title: 'gender layout', icon: 'table' }
-      },
-      {
-        path: 'age',
-        name: 'age',
-        component: () => import('@/views/age/index'),
-        meta: { title: 'age layout', icon: 'table' }
-      },
-      {
-        path: 'metadata',
-        name: 'metadata',
-        component: () => import('@/views/metadata/index'),
-        meta: { title: 'metadata layout', icon: 'table' }
-      },
-    ]
+    redirect: '/collection',
+    children: [{
+      path: 'collection',
+      name: 'Collection',
+      component: () => import('@/views/accessiondata/list'),
+      meta: { title: 'Accession Table', icon: 'el-icon-menu' }
+    }]
   },
 
   {
@@ -243,31 +346,37 @@ export const constantRoutes = [
   },
 
   {
-    path: '/test',  
-    component: Layout, 
+    path: '/test',
+    component: Layout,
     children: [{
-      path: 'test', 
+      path: '/test',
       name: 'test',
       component: () => import('@/views/test/index'),
-      meta: {
-        title: 'test', icon:'plane'
-      }
+      meta: { title: 'test', icon: 'plane' }
     }]
   },
 
   {
-    path: 'customize',
-    name: 'Customize',
-    component: () => import('@/views/customize/index'),
-    meta: { title: 'Customization', icon: 'table' }
+    path: '/customize',
+    component: Layout,
+    children: [{
+      path: '/customize',
+      name: 'customize',
+      component: () => import('@/views/customize/index'),
+      meta: { title: 'Customization', icon: 'table' }
+    }]
   },
 
   {
-    path: 'wordcloud',
-    name: 'wordcloud',
-    component: () => import('@/views/wordcloud/index'),
-    meta: { title: 'WordCloud', icon: 'table' }
-  }
+    path: '/wordcloud',
+    component: Layout,
+    children: [{
+      path: '/wordcloud',
+      name: 'wordcloud',
+      component: () => import('@/views/wordcloud/index'),
+      meta: { title: 'WordCloud', icon: 'table' }
+    }]
+  },
 
   /**
   {
@@ -276,7 +385,7 @@ export const constantRoutes = [
     redirect: '/material/upload',
     meta: {
       title: 'Element Management System',
-      icon: 'plane' 
+      icon: 'plane'
     },
     children: [{
         path: 'check-template',
@@ -315,7 +424,7 @@ export const constantRoutes = [
   */
 
   // 404 page must be placed at the end !!!
-  // { path: '*', redirect: '/404', hidden: true }
+  { path: '*', redirect: '/404', hidden: true }
 ]
 
 export const asyncRoutes = [

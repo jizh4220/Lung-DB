@@ -1,0 +1,842 @@
+2022/07/26 00:04:19 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\wordcloud\\__init__.py', reloading
+2022/07/26 00:04:22 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 00:04:26 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 00:05:22 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\wordcloud\\routes.py', reloading
+2022/07/26 00:05:22 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 00:05:23 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 10:56:31 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\wordcloud\\routes.py', reloading
+2022/07/26 10:56:31 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 10:56:40 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 10:57:21 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\__init__.py', reloading
+2022/07/26 10:57:21 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 10:57:22 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 10:57:48 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\__init__.py', reloading
+2022/07/26 10:57:48 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 10:57:56 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 11:00:07 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/26 11:00:07 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:00:07] "[33mGET /authors HTTP/1.1[0m" 404 -
+2022/07/26 11:00:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:00:11] "[32mGET /author HTTP/1.1[0m" 308 -
+2022/07/26 11:00:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:00:11] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 11:00:19 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:00:19] "[36mGET /static/js/chunk-2d0e4b0c.af53cfae.js HTTP/1.1[0m" 304 -
+2022/07/26 11:00:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:00:40] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 11:00:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:00:40] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 11:20:20 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:20:20] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 11:20:20 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:20:20] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 11:21:44 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:21:44] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 11:21:44 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:21:44] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 11:22:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:22:23] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 11:22:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:22:23] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 11:22:32 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:22:32] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 11:25:01 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 11:25:01 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 11:25:03 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 11:25:31 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:25:31] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 11:25:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:25:48] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 11:25:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:25:48] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 11:27:39 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:27:39] "[32mGET /books HTTP/1.1[0m" 308 -
+2022/07/26 11:27:39 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:27:39] "[31m[1mGET /books/ HTTP/1.1[0m" 422 -
+2022/07/26 11:27:49 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:27:49] "[31m[1mGET /books/ HTTP/1.1[0m" 422 -
+2022/07/26 11:28:33 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\books\\models.py', reloading
+2022/07/26 11:28:34 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 11:29:39 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 11:30:03 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 11:30:15 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 11:30:47 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 11:31:05 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 11:31:49 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 11:32:07 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 11:35:00 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 11:35:01 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 11:35:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:35:06] "[31m[1mGET /book/ HTTP/1.1[0m" 422 -
+2022/07/26 11:35:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:35:36] "[35m[1mGET /author/ HTTP/1.1[0m" 500 -
+2022/07/26 11:35:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:35:36] "GET /author/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022/07/26 11:35:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:35:36] "GET /author/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022/07/26 11:35:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:35:36] "GET /author/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022/07/26 11:35:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:35:36] "[36mGET /author/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022/07/26 11:36:06 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 11:36:07 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 11:37:11 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 11:38:06 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 11:40:51 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 11:43:57 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 11:44:30 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 11:46:07 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 11:46:08 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 11:46:09 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:46:09] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 11:46:15 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:46:15] "[32mGET /book HTTP/1.1[0m" 308 -
+2022/07/26 11:46:15 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:46:15] "[31m[1mGET /book/ HTTP/1.1[0m" 422 -
+2022/07/26 11:46:55 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:46:55] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 11:46:55 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 11:46:55] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 12:04:56 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 12:04:56 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 12:04:57 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 12:06:17 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 12:06:17 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 12:06:18 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 12:06:34 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:06:34] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 12:06:34 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:06:34] "[31m[1mPOST /author/ HTTP/1.1[0m" 405 -
+2022/07/26 12:07:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:07:35] "[31m[1mGET /book/ HTTP/1.1[0m" 422 -
+2022/07/26 12:07:39 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:07:39] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 12:07:44 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/26 12:07:44 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:07:44] "[33mGET /author/add HTTP/1.1[0m" 404 -
+2022/07/26 12:07:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:07:50] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 12:09:37 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:09:37] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 12:09:44 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:09:44] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 12:09:44 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:09:44] "[31m[1mPOST /author/ HTTP/1.1[0m" 405 -
+2022/07/26 12:09:55 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:09:55] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 12:09:55 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:09:55] "[31m[1mPOST /author/ HTTP/1.1[0m" 405 -
+2022/07/26 12:11:20 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:11:20] "OPTIONS /author/add HTTP/1.1" 200 -
+2022/07/26 12:11:20 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:11:20] "[31m[1mPOST /author/add HTTP/1.1[0m" 422 -
+2022/07/26 12:11:38 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 12:11:38 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 12:11:42 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 12:11:55 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:11:55] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 12:11:55 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:11:55] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 12:12:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:12:51] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 12:12:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:12:51] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 12:13:07 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:13:07] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 12:13:07 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:13:07] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 12:16:23 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\__init__.py', reloading
+2022/07/26 12:16:23 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 12:16:24 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 12:16:33 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:16:33] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 12:16:33 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:16:33] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 12:16:44 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\__init__.py', reloading
+2022/07/26 12:16:44 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 12:16:46 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 12:25:39 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:25:39] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 12:25:45 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/26 12:25:45 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:25:45] "[33mGET /author/1 HTTP/1.1[0m" 404 -
+2022/07/26 12:29:18 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 12:29:19 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 12:29:22 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 12:30:09 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 12:30:09 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 12:30:10 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 12:30:17 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:30:17] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 12:30:18 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:30:18] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 12:30:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:30:22] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 12:30:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:30:22] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 12:30:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:30:29] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 12:30:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:30:29] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 12:43:05 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 12:43:05 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 12:43:12 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 12:43:23 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 12:43:23 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 12:43:25 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 12:43:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:43:35] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 12:43:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:43:35] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 12:43:44 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:43:44] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 12:43:44 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:43:44] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 12:45:40 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 12:45:41 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 12:45:42 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 12:49:55 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:49:55] "[32mOPTIONS /author HTTP/1.1[0m" 308 -
+2022/07/26 12:50:20 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:50:20] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 12:50:20 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:50:20] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 12:50:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:50:40] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 12:50:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:50:40] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 12:52:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 12:52:01] "[32mOPTIONS /author HTTP/1.1[0m" 308 -
+2022/07/26 13:01:29 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 13:01:29 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 13:01:32 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 13:01:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:01:38] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:01:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:01:38] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 13:02:25 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 13:02:26 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 13:02:27 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 13:02:33 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:02:33] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:02:33 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:02:33] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 13:04:35 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 13:04:36 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 13:04:37 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 13:05:42 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 13:05:43 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 13:05:44 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 13:05:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:05:51] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:05:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:05:51] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 13:07:53 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 13:07:53 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 13:07:54 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 13:08:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:08:01] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:08:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:08:01] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 13:08:41 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 13:08:41 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 13:08:42 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 13:08:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:08:48] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:08:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:08:48] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 13:10:12 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 13:10:13 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 13:10:14 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 13:10:19 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:10:19] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:10:19 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:10:19] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 13:22:56 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 13:22:57 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 13:22:58 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 13:22:59 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 13:22:59 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 13:23:00 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 13:23:15 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:23:15] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:23:15 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:23:15] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 13:24:08 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\schema.py', reloading
+2022/07/26 13:24:08 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 13:24:09 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 13:24:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:24:35] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:24:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:24:35] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 13:25:15 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 13:25:15 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 13:25:16 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 13:26:05 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 13:26:05 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 13:26:06 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 13:26:08 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:26:08] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:26:08 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:26:08] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 13:27:31 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:27:31] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:27:31 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:27:31] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 13:28:17 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:28:17] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:28:17 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:28:17] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 13:28:33 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:28:33] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:28:33 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:28:33] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 13:37:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:37:14] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:37:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:37:14] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 13:39:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:39:48] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:39:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:39:48] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 13:39:49 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:39:49] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 13:42:27 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:42:27] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:42:27 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:42:27] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 13:42:27 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:42:27] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 13:44:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:44:01] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:44:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:44:01] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 13:45:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:45:06] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:45:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:45:06] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 13:47:49 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:47:49] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:47:49 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:47:49] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 13:48:19 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:48:19] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:48:19 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:48:19] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 13:48:19 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:48:19] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 13:48:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:48:28] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 13:48:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:48:28] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 13:48:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 13:48:28] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 14:13:40 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 14:13:42 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:13:46 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:15:22 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 14:15:22 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:15:26 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:15:58 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 14:15:58 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:15:59 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:17:59 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 14:17:59 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:18:00 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:18:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:18:11] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:18:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:18:11] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:21:59 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 14:22:00 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:22:04 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:22:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:22:14] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:22:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:22:14] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:23:28 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 14:23:29 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:23:30 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:23:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:23:38] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:23:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:23:38] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:25:10 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:25:10] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:25:10 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:25:10] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:25:42 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:25:42] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:25:42 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:25:42] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:25:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:25:48] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:25:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:25:48] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:27:13 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:27:13] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:27:13 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:27:13] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:31:12 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 14:31:12 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:31:15 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:31:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:31:23] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:31:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:31:23] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:31:42 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 14:31:42 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:31:44 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:31:49 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:31:49] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:31:49 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:31:49] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:32:11 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 14:32:11 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:32:13 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:32:15 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 14:32:15 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:32:16 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:32:19 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:32:19] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:32:19 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:32:19] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:32:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:32:28] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:32:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:32:28] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:32:44 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 14:32:44 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:32:45 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:33:56 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:33:56] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:33:56 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:33:56] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:36:23 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\schema.py', reloading
+2022/07/26 14:36:23 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:36:24 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:37:19 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 14:37:20 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:37:21 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:37:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:37:28] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:37:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:37:28] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:37:58 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:37:58] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:37:58 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:37:58] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:41:24 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 14:41:25 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:41:26 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:41:37 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:41:37] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:41:37 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:41:37] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:41:49 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 14:41:49 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:41:50 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:42:17 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 14:42:17 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:42:19 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:42:24 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:42:24] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:42:24 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:42:24] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:42:47 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 14:42:47 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:42:49 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:43:27 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 14:43:28 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:43:29 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:43:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:43:36] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:43:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:43:36] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:49:15 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 14:49:15 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:49:16 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:49:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:49:23] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:49:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:49:23] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:50:00 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 14:50:01 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:50:02 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:50:07 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:50:07] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:50:07 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:50:07] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:50:54 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 14:50:54 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:50:55 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:51:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:51:00] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:51:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:51:00] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:51:27 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 14:51:28 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:51:29 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:51:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:51:35] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:51:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:51:35] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:52:03 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 14:52:03 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:52:04 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:53:13 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 14:53:13 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:53:14 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:53:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:53:22] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:53:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:53:22] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:54:15 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 14:54:15 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:54:17 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:54:37 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 14:54:38 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:54:39 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:54:46 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:54:46] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:54:46 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:54:46] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:55:09 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 14:55:09 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:55:10 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:55:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:55:14] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:55:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:55:14] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 14:56:13 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 14:56:13 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 14:56:14 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 14:56:16 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:56:16] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 14:56:16 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 14:56:16] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:01:30 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 15:01:30 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:01:31 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:01:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:01:36] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:01:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:01:36] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:01:44 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 15:01:44 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:01:45 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:01:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:01:50] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:01:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:01:50] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:02:10 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:02:10] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 15:02:13 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:02:13] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 15:03:23 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 15:03:23 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:03:25 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:03:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:03:35] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:03:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:03:35] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:03:47 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 15:03:47 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:03:48 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:04:13 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 15:04:13 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:04:14 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:04:18 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:04:18] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:04:18 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:04:18] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:09:19 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 15:09:19 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:09:20 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:09:32 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 15:09:32 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:09:33 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:09:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:09:40] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:09:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:09:40] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:10:09 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 15:10:09 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:10:10 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:10:15 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:10:15] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:10:15 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:10:15] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:10:55 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 15:10:55 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:10:56 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:11:03 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:11:03] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:11:03 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:11:03] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:11:18 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 15:11:18 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:11:19 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:11:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:11:22] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:11:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:11:22] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:12:16 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 15:12:17 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:12:18 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:12:26 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:12:26] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:12:26 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:12:26] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:13:22 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 15:13:22 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:13:24 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:14:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:14:04] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:14:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:14:04] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:15:15 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 15:15:15 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:15:16 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:17:15 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:17:44 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:17:54 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:17:54 flask_migrate __init__.py[100] wrapped() ERROR: Error: Directory migrations already exists and is not empty
+2022/07/26 15:18:01 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:18:19 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:18:19 werkzeug _internal.py[224] _log() INFO:  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022/07/26 15:18:19 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:18:20 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:18:33 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:18:33] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:18:33 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:18:33] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:20:51 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 15:20:51 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:20:52 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:21:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:21:11] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:21:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:21:11] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:24:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:24:23] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:24:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:24:23] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:24:56 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 15:24:57 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:24:58 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:25:03 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:25:03] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:25:03 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:25:03] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:26:34 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 15:26:34 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:26:35 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:26:43 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:26:43] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:26:43 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:26:43] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:29:13 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:29:13] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:29:13 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:29:13] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:39:39 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:39:39] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:39:39 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:39:39] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:43:50 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 15:43:50 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:43:53 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:44:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:44:05] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:44:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:44:05] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:44:26 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 15:44:26 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:44:27 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:44:31 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:44:31] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:44:31 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:44:31] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:46:33 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\schema.py', reloading
+2022/07/26 15:46:33 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:46:35 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:46:43 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:46:43] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:46:43 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:46:43] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:49:02 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 15:49:02 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:49:03 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:49:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:49:14] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:49:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:49:14] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:50:05 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 15:50:05 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:50:27 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:51:16 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:52:08 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:52:09 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:52:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:52:14] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:52:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:52:14] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:53:36 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\schema.py', reloading
+2022/07/26 15:53:36 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:53:38 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:53:57 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\book\\schema.py', reloading
+2022/07/26 15:53:57 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:53:58 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:54:25 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:54:25] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:54:25 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:54:25] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:55:47 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 15:55:47 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:55:48 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:57:29 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\book\\schema.py', reloading
+2022/07/26 15:57:29 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:57:31 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:57:31 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\schema.py', reloading
+2022/07/26 15:57:31 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:57:32 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:57:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:57:51] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:57:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:57:51] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 15:59:14 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\book\\schema.py', reloading
+2022/07/26 15:59:14 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 15:59:16 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 15:59:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:59:29] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 15:59:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 15:59:29] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 16:01:00 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:01:00 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:01:01 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:01:10 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:01:10] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:01:10 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:01:10] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 16:01:24 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:01:24 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:01:25 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:01:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:01:28] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:01:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:01:28] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 16:01:34 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:01:34] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:01:34 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:01:34] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 16:01:51 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:01:52 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:01:53 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:01:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:01:57] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:01:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:01:57] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 16:02:10 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:02:10 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:02:11 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:02:15 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:02:15] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:02:15 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:02:15] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 16:02:21 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:02:21 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:02:22 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:02:27 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:02:27] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:02:27 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:02:27] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 16:02:39 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:02:39 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:02:40 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:02:45 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:02:45] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:02:45 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:02:45] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 16:07:46 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:07:46 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:07:47 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:07:54 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:07:54] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:07:54 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:07:54] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 16:08:26 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:08:26 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:08:28 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:08:55 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:08:55 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:08:56 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:09:03 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:09:03] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:09:03 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:09:03] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 16:09:14 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:09:14 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:09:16 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:09:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:09:22] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:09:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:09:22] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 16:10:39 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:10:40 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:10:41 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:10:49 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:10:49] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:10:49 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:10:49] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 16:14:41 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\schema.py', reloading
+2022/07/26 16:14:41 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:14:42 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:15:09 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\schema.py', reloading
+2022/07/26 16:15:09 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:15:10 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:18:30 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\schema.py', reloading
+2022/07/26 16:18:30 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:18:31 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:18:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:18:40] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:18:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:18:40] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 16:19:46 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:19:46 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:19:47 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:19:52 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:19:52] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:19:53 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:19:53] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/07/26 16:20:17 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\schema.py', reloading
+2022/07/26 16:20:17 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:20:18 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:20:37 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:20:37 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:20:38 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:20:47 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:20:47] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:20:47 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:20:47] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 16:20:47 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:20:47] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 16:20:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:20:50] "OPTIONS /author/1 HTTP/1.1" 200 -
+2022/07/26 16:20:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:20:50] "[35m[1mDELETE /author/1 HTTP/1.1[0m" 204 -
+2022/07/26 16:26:09 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\book\\schema.py', reloading
+2022/07/26 16:26:09 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:26:10 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:26:40 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\models.py', reloading
+2022/07/26 16:26:40 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:26:41 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:27:55 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:27:55 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:27:56 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:28:03 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:28:03] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:28:03 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:28:03] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 16:28:03 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:28:03] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 16:28:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:28:06] "OPTIONS /author/4 HTTP/1.1" 200 -
+2022/07/26 16:28:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:28:06] "[35m[1mDELETE /author/4 HTTP/1.1[0m" 204 -
+2022/07/26 16:28:38 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:28:38 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:28:39 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:28:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:28:48] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:28:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:28:48] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 16:28:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:28:48] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 16:28:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:28:51] "OPTIONS /author/2 HTTP/1.1" 200 -
+2022/07/26 16:28:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:28:51] "[35m[1mDELETE /author/2 HTTP/1.1[0m" 204 -
+2022/07/26 16:29:37 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:29:37] "[36mGET / HTTP/1.1[0m" 304 -
+2022/07/26 16:29:37 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:29:37] "[36mGET /static/js/chunk-elementUI.6f38d267.js HTTP/1.1[0m" 304 -
+2022/07/26 16:29:37 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:29:37] "[36mGET /static/js/chunk-libs.a353f5a5.js HTTP/1.1[0m" 304 -
+2022/07/26 16:29:37 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:29:37] "[36mGET /static/js/app.b2f24bdd.js HTTP/1.1[0m" 304 -
+2022/07/26 16:29:37 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:29:37] "[36mGET /static/css/app.949a0224.css HTTP/1.1[0m" 304 -
+2022/07/26 16:29:37 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:29:37] "[36mGET /static/css/chunk-elementUI.68c70ad5.css HTTP/1.1[0m" 304 -
+2022/07/26 16:29:37 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:29:37] "[36mGET /static/css/chunk-libs.3dfb7769.css HTTP/1.1[0m" 304 -
+2022/07/26 16:29:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:29:38] "[36mGET /static/css/chunk-3fa7be4f.9a9361c6.css HTTP/1.1[0m" 304 -
+2022/07/26 16:29:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:29:38] "[36mGET /static/js/chunk-3fa7be4f.ab1990ef.js HTTP/1.1[0m" 304 -
+2022/07/26 16:29:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:29:38] "[36mGET /static/fonts/element-icons.535877f5.woff HTTP/1.1[0m" 304 -
+2022/07/26 16:29:46 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:29:46] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 16:29:52 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:29:52] "GET /author/4 HTTP/1.1" 200 -
+2022/07/26 16:31:35 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:31:35 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:31:37 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:32:00 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:32:01 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:32:02 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:32:12 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:32:12] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:32:13 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:32:13] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 16:32:13 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:32:13] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 16:32:13 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:32:13] "OPTIONS /author/5 HTTP/1.1" 200 -
+2022/07/26 16:32:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:32:14] "[35m[1mDELETE /author/5 HTTP/1.1[0m" 204 -
+2022/07/26 16:33:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:33:36] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:33:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:33:36] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 16:33:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:33:36] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 16:33:44 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:33:44] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:33:44 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:33:44] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 16:33:44 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:33:44] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 16:38:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:38:05] "OPTIONS /author/3 HTTP/1.1" 200 -
+2022/07/26 16:38:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:38:05] "[35m[1mDELETE /author/3 HTTP/1.1[0m" 204 -
+2022/07/26 16:38:09 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:38:09] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:38:09 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:38:09] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 16:38:09 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:38:09] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 16:42:54 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:42:54] "OPTIONS /author/[object%20Object] HTTP/1.1" 200 -
+2022/07/26 16:42:54 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:42:54] "[31m[1mPUT /author/[object%20Object] HTTP/1.1[0m" 405 -
+2022/07/26 16:43:16 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:43:16] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:43:16 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:43:16] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 16:43:16 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:43:16] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 16:43:18 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:43:18] "OPTIONS /author/4 HTTP/1.1" 200 -
+2022/07/26 16:43:19 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:43:19] "[35m[1mDELETE /author/4 HTTP/1.1[0m" 204 -
+2022/07/26 16:43:22 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/26 16:43:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:43:22] "[33mDELETE /author/4 HTTP/1.1[0m" 404 -
+2022/07/26 16:43:23 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/26 16:43:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:43:23] "[33mDELETE /author/4 HTTP/1.1[0m" 404 -
+2022/07/26 16:43:24 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:43:24] "OPTIONS /author/4 HTTP/1.1" 200 -
+2022/07/26 16:43:24 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/07/26 16:43:24 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:43:24] "[33mDELETE /author/4 HTTP/1.1[0m" 404 -
+2022/07/26 16:44:10 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:44:10 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:44:13 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:44:16 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:44:16] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:44:16 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:44:16] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 16:44:16 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:44:16] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 16:44:17 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:44:17] "OPTIONS /author/7 HTTP/1.1" 200 -
+2022/07/26 16:44:18 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:44:18] "[35m[1mDELETE /author/7 HTTP/1.1[0m" 204 -
+2022/07/26 16:44:31 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:44:31 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:44:32 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:45:32 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:45:32] "OPTIONS /author/6 HTTP/1.1" 200 -
+2022/07/26 16:45:32 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:45:32] "[35m[1mDELETE /author/6 HTTP/1.1[0m" 204 -
+2022/07/26 16:46:36 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:46:36 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:46:37 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:47:11 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:47:12 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:47:13 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:47:18 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:47:18] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:47:18 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:47:18] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 16:47:18 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:47:18] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 16:47:19 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:47:19] "OPTIONS /author/5 HTTP/1.1" 200 -
+2022/07/26 16:47:20 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:47:20] "[35m[1mDELETE /author/5 HTTP/1.1[0m" 500 -
+2022/07/26 16:47:50 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:47:50 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:47:51 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:47:53 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:47:53] "OPTIONS /author/9 HTTP/1.1" 200 -
+2022/07/26 16:47:53 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:47:53] "[35m[1mDELETE /author/9 HTTP/1.1[0m" 204 -
+2022/07/26 16:49:20 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 16:49:21 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 16:49:22 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 16:49:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:49:28] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 16:49:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:49:28] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 16:49:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:49:28] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 16:49:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:49:29] "OPTIONS /author/8 HTTP/1.1" 200 -
+2022/07/26 16:49:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:49:29] "DELETE /author/8 HTTP/1.1" 200 -
+2022/07/26 16:49:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 16:49:29] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 20:40:49 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 20:40:50 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 20:40:56 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 20:40:56 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:40:56] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 20:40:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:40:57] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 20:40:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:40:57] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 20:40:58 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:40:58] "OPTIONS /author/10 HTTP/1.1" 200 -
+2022/07/26 20:40:59 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:40:59] "[35m[1mDELETE /author/10 HTTP/1.1[0m" 201 -
+2022/07/26 20:41:09 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:41:09] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 20:41:09 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:41:09] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 20:41:13 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:41:13] "OPTIONS /author/11 HTTP/1.1" 200 -
+2022/07/26 20:41:13 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:41:13] "[35m[1mDELETE /author/11 HTTP/1.1[0m" 201 -
+2022/07/26 20:41:13 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:41:13] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 20:41:18 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 20:41:18 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 20:41:20 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 20:41:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:41:28] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 20:41:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:41:28] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 20:41:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:41:28] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 20:41:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:41:29] "OPTIONS /author/12 HTTP/1.1" 200 -
+2022/07/26 20:41:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:41:29] "[35m[1mDELETE /author/12 HTTP/1.1[0m" 204 -
+2022/07/26 20:41:59 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\utils\\responses.py', reloading
+2022/07/26 20:41:59 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 20:42:01 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 20:42:03 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 20:42:03 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 20:42:04 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 20:42:10 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:42:10] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 20:42:10 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:42:10] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 20:42:10 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:42:10] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 20:42:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:42:11] "OPTIONS /author/13 HTTP/1.1" 200 -
+2022/07/26 20:42:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:42:11] "[35m[1mDELETE /author/13 HTTP/1.1[0m" 202 -
+2022/07/26 20:42:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:42:11] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 20:47:44 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 20:47:44 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 20:47:45 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 20:47:51 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 20:47:51 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 20:47:52 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 20:48:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:48:01] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 20:48:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:48:01] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 20:48:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:48:01] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 20:48:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:48:11] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 20:48:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:48:11] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 20:48:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:48:11] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 20:59:47 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:59:47] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 20:59:47 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:59:47] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 20:59:47 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:59:47] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 20:59:53 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:59:53] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 20:59:53 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:59:53] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 20:59:53 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 20:59:53] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 21:07:37 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:07:37] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 21:07:37 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:07:37] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 21:07:37 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:07:37] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 21:07:46 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:07:46] "OPTIONS /author/[object%20Object] HTTP/1.1" 200 -
+2022/07/26 21:07:46 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:07:46] "[31m[1mPUT /author/[object%20Object] HTTP/1.1[0m" 405 -
+2022/07/26 21:12:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:12:05] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 21:12:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:12:05] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 21:12:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:12:05] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 21:12:18 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:12:18] "OPTIONS /author/[object%20Object] HTTP/1.1" 200 -
+2022/07/26 21:12:18 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:12:18] "[31m[1mPUT /author/[object%20Object] HTTP/1.1[0m" 405 -
+2022/07/26 21:16:02 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 21:16:03 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 21:16:07 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 21:16:47 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:16:47] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 21:16:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:16:48] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 21:16:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:16:48] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 21:19:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:19:50] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 21:19:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:19:50] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 21:19:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:19:50] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 21:19:53 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:19:53] "OPTIONS /author/14 HTTP/1.1" 200 -
+2022/07/26 21:19:53 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:19:53] "[35m[1mPUT /author/14 HTTP/1.1[0m" 500 -
+2022/07/26 21:20:30 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 21:20:30 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 21:20:32 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 21:20:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:20:40] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 21:20:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:20:40] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 21:20:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:20:40] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 21:20:41 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:20:41] "OPTIONS /author/14 HTTP/1.1" 200 -
+2022/07/26 21:20:41 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:20:41] "[35m[1mDELETE /author/14 HTTP/1.1[0m" 202 -
+2022/07/26 21:20:41 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:20:41] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 21:20:44 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:20:44] "OPTIONS /author/16 HTTP/1.1" 200 -
+2022/07/26 21:20:44 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:20:44] "[35m[1mDELETE /author/16 HTTP/1.1[0m" 202 -
+2022/07/26 21:20:44 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:20:44] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 21:20:47 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:20:47] "OPTIONS /author/17 HTTP/1.1" 200 -
+2022/07/26 21:20:47 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:20:47] "[35m[1mPUT /author/17 HTTP/1.1[0m" 500 -
+2022/07/26 21:46:54 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:46:54] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 21:46:54 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:46:54] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 21:46:54 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:46:54] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 21:46:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:46:57] "OPTIONS /author/15 HTTP/1.1" 200 -
+2022/07/26 21:46:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:46:57] "[35m[1mPUT /author/15 HTTP/1.1[0m" 500 -
+2022/07/26 21:48:39 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:48:39] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 21:48:39 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:48:39] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 21:48:39 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:48:39] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 21:48:41 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:48:41] "OPTIONS /author/21 HTTP/1.1" 200 -
+2022/07/26 21:48:41 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:48:41] "[35m[1mDELETE /author/21 HTTP/1.1[0m" 202 -
+2022/07/26 21:48:41 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:48:41] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 21:48:44 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:48:44] "OPTIONS /author/20 HTTP/1.1" 200 -
+2022/07/26 21:48:44 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:48:44] "[35m[1mPUT /author/20 HTTP/1.1[0m" 500 -
+2022/07/26 21:49:25 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 21:49:25 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 21:49:27 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 21:49:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:49:40] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 21:49:42 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:49:42] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 21:49:42 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:49:42] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 21:49:45 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:49:45] "OPTIONS /author/18 HTTP/1.1" 200 -
+2022/07/26 21:49:46 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:49:46] "[35m[1mPUT /author/18 HTTP/1.1[0m" 500 -
+2022/07/26 21:52:07 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 21:52:08 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 21:52:09 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 21:59:55 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:59:55] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 21:59:56 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:59:56] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 21:59:56 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:59:56] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 21:59:58 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:59:58] "OPTIONS /author/25 HTTP/1.1" 200 -
+2022/07/26 21:59:58 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:59:58] "[35m[1mDELETE /author/25 HTTP/1.1[0m" 202 -
+2022/07/26 21:59:58 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:59:58] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 21:59:58 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:59:58] "OPTIONS /author/23 HTTP/1.1" 200 -
+2022/07/26 21:59:58 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:59:58] "[35m[1mDELETE /author/23 HTTP/1.1[0m" 202 -
+2022/07/26 21:59:58 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:59:58] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 21:59:59 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:59:59] "OPTIONS /author/22 HTTP/1.1" 200 -
+2022/07/26 21:59:59 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:59:59] "[35m[1mDELETE /author/22 HTTP/1.1[0m" 202 -
+2022/07/26 21:59:59 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 21:59:59] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 22:20:12 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 22:20:12] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 22:20:13 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 22:20:13] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 22:20:13 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 22:20:13] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 22:20:21 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 22:20:21] "OPTIONS /author/15 HTTP/1.1" 200 -
+2022/07/26 22:20:21 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 22:20:21] "[35m[1mPUT /author/15 HTTP/1.1[0m" 500 -
+2022/07/26 22:21:18 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 22:21:23 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 22:21:27 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 22:21:33 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 22:21:33] "OPTIONS /author/15 HTTP/1.1" 200 -
+2022/07/26 22:21:33 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 22:21:33] "[35m[1mPUT /author/15 HTTP/1.1[0m" 500 -
+2022/07/26 22:23:00 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 22:23:00 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 22:23:01 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 22:23:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 22:23:04] "OPTIONS /author/15 HTTP/1.1" 200 -
+2022/07/26 22:23:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 22:23:04] "[35m[1mPUT /author/15 HTTP/1.1[0m" 500 -
+2022/07/26 22:24:19 werkzeug _internal.py[224] _log() INFO:  * Detected change in 'D:\\word_cloud\\vue-admin-template\\api\\app\\author\\routes.py', reloading
+2022/07/26 22:24:19 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/07/26 22:24:20 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup
+2022/07/26 22:24:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 22:24:35] "OPTIONS /author/15 HTTP/1.1" 200 -
+2022/07/26 22:24:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 22:24:35] "PUT /author/15 HTTP/1.1" 200 -
+2022/07/26 22:25:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 22:25:35] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 22:25:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 22:25:35] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 22:25:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 22:25:35] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 22:25:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 22:25:40] "OPTIONS /author/17 HTTP/1.1" 200 -
+2022/07/26 22:25:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 22:25:40] "PUT /author/17 HTTP/1.1" 200 -
+2022/07/26 22:25:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 22:25:40] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 22:25:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 22:25:40] "GET /author/ HTTP/1.1" 200 -
+2022/07/26 23:25:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 23:25:57] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 23:26:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 23:26:11] "OPTIONS /author/ HTTP/1.1" 200 -
+2022/07/26 23:26:12 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 23:26:12] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/07/26 23:26:12 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [26/Jul/2022 23:26:12] "GET /author/ HTTP/1.1" 200 -

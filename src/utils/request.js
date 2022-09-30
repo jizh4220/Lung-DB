@@ -13,17 +13,16 @@ const service = axios.create({
 // request interceptor
 service.interceptors.request.use(
   config => {
-    // do something before request is sent
-
     if (store.getters.token) {
       // let each request carry token
+      console.log(getToken())
       config.headers['Authorization'] = getToken()
     }
     return config
   },
   error => {
     // do something with request error
-    console.log(error) // for debug
+    console.log('something went wrong', error) // for debug
     return Promise.reject(error)
   }
 )
@@ -34,7 +33,6 @@ service.interceptors.response.use(
    * If you want to get http information such as headers or status
    * Please return  response => response
   */
-
   response => {
     const res = response.data
     if (res.code !== 'success') {
@@ -43,7 +41,6 @@ service.interceptors.response.use(
         type: 'error',
         duration: 5 * 1000
       })
-
       // 50008: Illegal token; 50012: Other clients logged in; 50014: Token expired;
       if (res.code === 50008 || res.code === 50012 || res.code === 50014) {
         // to re-login

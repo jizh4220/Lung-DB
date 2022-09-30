@@ -1,0 +1,304 @@
+2022/08/10 00:23:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 00:23:01] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/10 00:24:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 00:24:57] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/10 00:26:19 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 00:26:19] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/10 00:27:16 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 00:27:16] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/10 00:28:29 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 00:28:29 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 00:28:30 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 00:28:33 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 00:28:33] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/10 00:29:03 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 00:29:03 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 00:29:04 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 00:29:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 00:29:06] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/10 00:30:05 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 00:30:05 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 00:30:05 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 00:30:09 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 00:30:09] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/10 00:31:03 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 00:31:03 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 00:31:03 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 00:31:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 00:31:06] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/10 00:31:23 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 00:31:23 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 00:31:24 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 00:31:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 00:31:28] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/10 00:31:47 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 00:31:47 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 00:31:48 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 00:31:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 00:31:50] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 00:41:33 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 00:41:33 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 00:41:33 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 00:41:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 00:41:38] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 00:44:12 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 00:44:12 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 00:44:13 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 00:44:17 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 00:44:17] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 00:45:34 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 00:45:34 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 00:45:34 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 00:45:39 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 00:45:39] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 00:46:55 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 00:46:56 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 00:46:56 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 00:47:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 00:47:00] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 00:49:25 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 00:49:26 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 00:49:26 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 00:49:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 00:49:29] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 00:53:27 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 00:53:27 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 00:53:28 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 00:53:33 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 00:53:33] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 00:54:27 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 00:54:27 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 00:54:27 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 00:54:33 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 00:54:33] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 01:02:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 01:02:11] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 01:03:00 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 01:03:00 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 01:03:01 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 01:03:03 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 01:03:03] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 01:03:51 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 01:03:51 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 01:03:52 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 01:03:54 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 01:03:54] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 01:06:06 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 01:06:06 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 01:06:06 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 01:06:10 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 01:06:10] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 01:07:01 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 01:07:01 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 01:07:02 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 01:07:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 01:07:04] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 01:07:23 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 01:07:23 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 01:07:24 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 01:07:27 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 01:07:27] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 01:14:27 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 01:14:27 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 01:14:27 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 01:14:31 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 01:14:31] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 01:14:44 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 01:14:44 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 01:14:44 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 01:14:46 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 01:14:46] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:15:47 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:15:47 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:15:48 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:15:53 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:15:53] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/10 02:16:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:16:00] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:18:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:18:11] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:22:02 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:22:02 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:22:03 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:22:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:22:06] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:23:53 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:23:53 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:23:54 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:23:59 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:23:59] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:27:57 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:27:57 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:27:57 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:28:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:28:00] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:30:55 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:30:55 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:30:55 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:31:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:31:00] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:32:19 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:32:19 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:32:19 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:32:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:32:22] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:32:53 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:32:53 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:32:54 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:32:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:32:57] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:33:24 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:33:24 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:33:25 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:33:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:33:28] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:37:54 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:37:54 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:37:55 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:38:07 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:38:07] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:38:42 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:38:42 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:38:42 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:38:45 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:38:45] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:39:35 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:39:35 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:39:35 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:39:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:39:40] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:40:53 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:40:54 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:40:54 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:40:58 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:40:58] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:43:16 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:43:16 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:43:17 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:43:21 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:43:21] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:45:36 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:45:36 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:45:37 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:45:41 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:45:41] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:52:30 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:52:30 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:52:31 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:52:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:52:35] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:54:13 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:54:14 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:54:14 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:54:17 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:54:17] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:54:40 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:54:41 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:54:41 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:54:43 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:54:43] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:55:02 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:55:02 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:55:03 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:55:08 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:55:08] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:55:34 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:55:34 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:55:35 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:55:37 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:55:37] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:56:34 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:56:34 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:56:35 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:56:37 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:56:37] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:56:55 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:56:55 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:56:56 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:56:58 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:56:58] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:57:33 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:57:33 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:57:34 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:57:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:57:36] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:57:49 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:57:49 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 02:57:50 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 02:57:52 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 02:57:52] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 02:59:30 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 02:59:30 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 03:00:46 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 03:00:47 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 03:00:52 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 03:00:52] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 03:01:16 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 03:01:16 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 03:01:17 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 03:01:19 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 03:01:19] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 03:01:42 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 03:01:42 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 03:01:43 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 03:18:01 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 03:18:01 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 03:18:02 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 03:18:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 03:18:05] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 03:19:22 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 03:19:22 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 03:19:22 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 03:19:26 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 03:19:26] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 03:20:03 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 03:20:03 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 03:20:04 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 03:20:07 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 03:20:07] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 03:20:37 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 03:20:37 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 03:20:38 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 03:20:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 03:20:40] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 03:21:09 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 03:21:09 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 03:21:10 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 20:14:23 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 20:14:24 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 20:14:24 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 20:14:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 20:14:28] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 20:16:43 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 20:16:43 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 20:16:43 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 20:16:46 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 20:16:46] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 20:21:16 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 20:21:16 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 20:21:17 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 20:21:21 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 20:21:21] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 20:22:01 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 20:22:01 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 20:22:02 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 20:22:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 20:22:06] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 20:22:24 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 20:22:24 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 20:22:25 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 20:22:27 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 20:22:27] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 20:24:12 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 20:24:12 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 20:24:13 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 20:24:16 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 20:24:16] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 20:25:02 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 20:25:02 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 20:25:02 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 20:25:07 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 20:25:07] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 20:31:38 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 20:31:38 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 20:31:39 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 20:31:42 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 20:31:42] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 20:35:57 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 20:35:58 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 20:35:58 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 20:36:05 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 20:36:05 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 20:36:06 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 20:36:09 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 20:36:09] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 20:37:00 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 20:37:00 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 20:37:00 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 20:37:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 20:37:04] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 20:39:25 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 20:39:26 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 20:39:26 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 20:39:31 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 20:39:31] "[35m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 500 -
+2022/08/10 21:22:09 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 21:22:09 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 21:22:10 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 21:22:12 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 21:22:12] "[35m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 500 -
+2022/08/10 21:34:00 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 21:34:01 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 21:34:01 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 21:34:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 21:34:05] "[35m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 500 -
+2022/08/10 21:51:45 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 21:51:45 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 21:51:46 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 21:51:47 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 21:51:47] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/10 22:06:21 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 22:06:21 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 22:06:22 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 22:06:27 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 22:06:27] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 22:06:40 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 22:06:40 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 22:06:40 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 22:06:43 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 22:06:43] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 22:08:37 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 22:08:37 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 22:08:38 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 22:08:40 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 22:08:40] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 23:27:01 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 23:27:01 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 23:27:02 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 23:27:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 23:27:04] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 23:28:55 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 23:28:55 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 23:28:56 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 23:28:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 23:28:57] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/10 23:30:51 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 23:30:51 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 23:30:52 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 23:30:54 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 23:30:54] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/10 23:35:55 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 23:35:55 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 23:35:56 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 23:36:02 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 23:36:02] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/10 23:53:35 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 23:53:35 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 23:53:36 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/10 23:53:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [10/Aug/2022 23:53:38] "[31m[1mPOST /accessiondata/accession/list/ HTTP/1.1[0m" 422 -
+2022/08/10 23:59:54 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/10 23:59:54 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/10 23:59:55 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC

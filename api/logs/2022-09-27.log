@@ -1,0 +1,4 @@
+2022/09/27 02:30:12 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [27/Sep/2022 02:30:12] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/09/27 02:30:18 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [27/Sep/2022 02:30:18] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/09/27 18:25:56 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [27/Sep/2022 18:25:56] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/09/27 18:25:56 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [27/Sep/2022 18:25:56] "GET /accessiondata/summary/ HTTP/1.1" 200 -

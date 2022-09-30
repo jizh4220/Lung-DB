@@ -1,0 +1,11 @@
+2022/08/18 05:29:32 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [18/Aug/2022 05:29:32] "GET /accessiondata/summary/plot/ HTTP/1.1" 200 -
+2022/08/18 05:29:32 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [18/Aug/2022 05:29:32] "GET /accessiondata/summary/ HTTP/1.1" 200 -
+2022/08/18 05:31:34 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [18/Aug/2022 05:31:34] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/18 05:31:41 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [18/Aug/2022 05:31:41] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/18 18:00:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [18/Aug/2022 18:00:01] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/18 20:43:59 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [18/Aug/2022 20:43:59] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/18 20:44:15 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [18/Aug/2022 20:44:15] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/18 20:44:18 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [18/Aug/2022 20:44:18] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/18 20:44:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [18/Aug/2022 20:44:22] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/18 21:51:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [18/Aug/2022 21:51:00] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -
+2022/08/18 21:51:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [18/Aug/2022 21:51:06] "POST /accessiondata/accession/list/ HTTP/1.1" 200 -

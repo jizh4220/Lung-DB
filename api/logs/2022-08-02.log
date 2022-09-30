@@ -1,0 +1,307 @@
+2022/08/02 00:04:54 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 00:04:55 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 00:04:55 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 00:06:21 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 00:06:21 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 00:06:21] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 00:08:46 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 00:08:46 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 00:08:46] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 00:09:15 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 00:09:15 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 00:09:15] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 00:13:19 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 00:13:19 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 00:13:19] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 00:13:48 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 00:13:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 00:13:48] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 00:14:23 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 00:14:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 00:14:23] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 00:15:41 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 00:15:41 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 00:15:41] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 00:36:09 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 00:36:09 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 00:36:09] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 00:38:05 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 00:38:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 00:38:05] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 00:38:21 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 00:38:21 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 00:38:21] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 00:44:17 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 00:44:17 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 00:44:17 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 00:45:19 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 00:45:19 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 00:45:19 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 00:45:49 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 00:45:49 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 00:45:49 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 00:49:17 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 00:49:17 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 00:49:18 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 00:52:23 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 00:52:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 00:52:23] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 01:05:03 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:05:03 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:05:03] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 01:05:54 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 01:05:54 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 01:05:55 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 01:06:37 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:06:37 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:06:37] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 01:14:03 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:14:03 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:14:03] "[33mGET /vue-admin-template/table/list HTTP/1.1[0m" 404 -
+2022/08/02 01:21:21 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 01:21:21 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 01:21:21 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 01:29:58 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 01:29:59 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 01:29:59 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 01:30:45 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 01:30:45 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 01:30:46 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 01:33:45 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 01:33:45 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 01:33:45 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 01:33:50 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:33:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:33:50] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 01:34:17 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:34:17 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:34:17] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 01:35:33 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:35:33 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:35:33] "[33mGET /accessiondata/table/list/120+id?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 01:35:43 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:35:43 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:35:43] "[33mGET /accessiondata/table/list/120+id?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 01:38:01 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:38:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:38:01] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id&page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 01:38:13 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:38:13 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:38:13] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id&page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 01:38:51 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:38:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:38:51] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 01:38:59 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:38:59 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:38:59] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 01:40:11 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 01:40:12 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 01:40:12 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 01:40:16 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:40:16 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:40:16] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 01:41:26 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 01:41:26 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 01:41:26 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 01:42:57 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 01:42:57 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 01:42:57 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 01:43:06 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:43:06 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:43:06] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id&page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 01:45:01 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:45:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:45:01] "[33mGET /1&limit=20&sort=+id?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 01:45:10 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:45:10 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:45:10] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id&page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 01:45:48 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:45:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:45:48] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 01:46:17 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 01:46:17 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 01:46:18 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 01:46:24 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:46:24 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:46:24] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 01:51:03 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 01:51:03 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 01:51:03 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 01:51:13 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:51:13 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:51:13] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 01:52:21 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 01:52:21 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 01:52:22 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 01:53:11 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 01:53:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 01:53:11] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 06:30:18 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 06:30:19 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 06:30:19 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 06:30:24 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 06:30:24 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 06:30:24] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 06:37:57 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 06:37:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 06:37:57] "[33mGET /accessiondata/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 06:38:02 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 06:38:02 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 06:38:02] "[33mGET /accessiondata/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 06:38:18 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 06:38:18 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 06:38:18] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 06:45:34 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 06:45:34 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 06:45:34] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 06:45:37 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 06:45:37 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 06:45:37] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 06:49:49 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 06:49:49 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 06:49:49] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 06:49:49 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 06:49:49 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 06:49:49] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 06:50:27 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 06:50:27 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 06:50:27] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 06:50:28 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 06:50:28 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 06:50:28] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 06:53:16 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 06:53:16 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 06:53:16 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 06:53:20 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 06:53:20 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 06:53:20] "[33mGET /accessiondata/table/list/?page=1&limit=20&sort=+id HTTP/1.1[0m" 404 -
+2022/08/02 06:57:17 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 06:57:17 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 06:57:17] "[33mGET /accessiondata/table/list/ HTTP/1.1[0m" 404 -
+2022/08/02 06:57:21 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 06:57:21 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 06:57:21] "[33mGET /accessiondata/table/list/ HTTP/1.1[0m" 404 -
+2022/08/02 06:57:45 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 06:57:45 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 06:57:46 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 06:57:50 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 06:57:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 06:57:50] "[33mGET /accessiondata/table/list/ HTTP/1.1[0m" 404 -
+2022/08/02 07:00:15 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 07:00:15 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 07:00:15 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 07:00:44 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 07:00:44 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:00:44] "[33mGET /accessiondata/table/list/ HTTP/1.1[0m" 404 -
+2022/08/02 07:00:46 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 07:00:46 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 07:00:46 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 07:00:50 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 07:00:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:00:50] "[33mGET /accessiondata/table/list/ HTTP/1.1[0m" 404 -
+2022/08/02 07:02:04 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 07:02:04 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 07:02:05 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 07:02:12 root __init__.py[114] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 07:02:12 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:02:12] "[33mGET /accessiondata/table/list/ HTTP/1.1[0m" 404 -
+2022/08/02 07:05:56 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/__init__.py', reloading
+2022/08/02 07:05:56 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 07:10:44 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 07:11:16 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 07:11:23 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 07:11:26 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 07:12:31 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 07:12:31 werkzeug _internal.py[224] _log() INFO:  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022/08/02 07:12:31 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 07:12:31 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 07:12:37 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:12:37] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 07:19:31 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 07:19:31 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 07:19:32 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 07:19:51 root __init__.py[127] bad_request() ERROR: 400 Bad Request: Failed to decode JSON object: Expecting value: line 1 column 1 (char 0)
+2022/08/02 07:19:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:19:51] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 400 -
+2022/08/02 07:20:23 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 07:20:23 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 07:20:24 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 07:20:26 root __init__.py[127] bad_request() ERROR: 400 Bad Request: Failed to decode JSON object: Expecting value: line 1 column 1 (char 0)
+2022/08/02 07:20:26 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:20:26] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 400 -
+2022/08/02 07:21:59 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 07:21:59 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 07:21:59 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 07:22:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:22:04] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 422 -
+2022/08/02 07:28:32 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 07:28:32 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 07:28:32 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 07:28:35 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:28:35] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 422 -
+2022/08/02 07:29:57 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 07:29:57 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 07:29:58 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 07:33:21 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:33:21] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 422 -
+2022/08/02 07:34:46 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:34:46] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 422 -
+2022/08/02 07:34:51 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:34:51] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 422 -
+2022/08/02 07:35:08 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:35:08] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 422 -
+2022/08/02 07:35:10 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:35:10] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 422 -
+2022/08/02 07:37:54 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:37:54] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 422 -
+2022/08/02 07:38:26 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:38:26] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 422 -
+2022/08/02 07:39:12 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:39:12] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 422 -
+2022/08/02 07:43:43 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:43:43] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 422 -
+2022/08/02 07:46:53 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:46:53] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 422 -
+2022/08/02 07:46:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 07:46:57] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 422 -
+2022/08/02 08:22:42 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 08:22:42 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 08:22:43 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 08:22:46 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 08:22:46] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 08:23:19 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 08:23:20 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 08:23:20 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 08:27:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 08:27:00] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 422 -
+2022/08/02 08:27:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 08:27:05] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 422 -
+2022/08/02 08:27:21 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/author/routes.py', reloading
+2022/08/02 08:27:21 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 08:27:21 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 08:27:25 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 08:27:25] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 422 -
+2022/08/02 08:27:40 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/author/routes.py', reloading
+2022/08/02 08:27:40 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 08:27:40 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 08:27:57 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 08:27:58 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 08:27:58 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 08:28:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 08:28:01] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 08:31:25 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 08:31:25 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 08:31:26 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 08:31:29 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 08:31:29] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 422 -
+2022/08/02 08:31:40 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 08:31:40 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 08:31:40 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 08:31:52 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 08:31:52] "[31m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 422 -
+2022/08/02 08:33:00 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 08:33:00 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 08:33:01 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 08:33:04 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 08:33:04] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 08:37:34 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 08:37:34 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 08:37:35 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 08:37:38 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 08:37:38] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 08:58:49 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 08:58:49] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 08:59:00 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 08:59:00] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 08:59:03 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 08:59:03] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 08:59:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 08:59:57] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 09:00:16 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:00:16] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 09:01:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:01:23] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 09:01:58 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:01:58] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 09:03:21 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:03:21] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 09:03:32 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:03:32] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 09:14:31 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 09:14:31 werkzeug _internal.py[224] _log() INFO:  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022/08/02 09:14:31 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 09:14:31 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 09:15:03 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:15:03] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 09:15:11 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:15:11] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 09:18:48 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/accessiondata/routes.py', reloading
+2022/08/02 09:18:48 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 09:18:48 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 09:20:10 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:20:10] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 09:21:45 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:21:45] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 09:21:49 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:21:49] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 09:21:55 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:21:55] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 09:27:17 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:27:17] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 09:27:31 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:27:31] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 09:28:55 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:28:55] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 09:29:01 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:29:01] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 09:29:42 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:29:42] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 09:29:46 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:29:46] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 09:33:48 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:33:48] "[31m[1mPOST /post/page HTTP/1.1[0m" 405 -
+2022/08/02 09:33:53 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 09:33:53] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 19:59:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 19:59:22] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 20:00:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 20:00:22] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 20:01:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 20:01:36] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 20:03:14 root __init__.py[117] not_found() ERROR: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2022/08/02 20:03:14 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 20:03:14] "[33mGET /vue-admin-template/table/list HTTP/1.1[0m" 404 -
+2022/08/02 20:03:24 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 20:03:24] "[31m[1mPOST /author/ HTTP/1.1[0m" 422 -
+2022/08/02 20:05:05 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 20:05:05] "[35m[1mGET /accessiondata/table/list/ HTTP/1.1[0m" 500 -
+2022/08/02 20:27:23 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/config.py', reloading
+2022/08/02 20:27:23 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 20:27:23 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 20:27:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 20:27:36] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/08/02 20:27:36 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 20:27:36] "GET /author/ HTTP/1.1" 200 -
+2022/08/02 20:40:30 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 20:40:30] "[35m[1mDELETE /author/24 HTTP/1.1[0m" 202 -
+2022/08/02 20:40:30 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 20:40:30] "GET /author/ HTTP/1.1" 200 -
+2022/08/02 20:49:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 20:49:23] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/08/02 20:49:23 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 20:49:23] "GET /author/ HTTP/1.1" 200 -
+2022/08/02 20:50:10 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 20:50:10] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/08/02 20:50:10 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 20:50:10] "GET /author/ HTTP/1.1" 200 -
+2022/08/02 20:53:19 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 20:53:19] "[35m[1mPOST /author/ HTTP/1.1[0m" 201 -
+2022/08/02 20:53:19 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 20:53:19] "GET /author/ HTTP/1.1" 200 -
+2022/08/02 23:19:22 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 23:19:22] "GET /author/ HTTP/1.1" 200 -
+2022/08/02 23:19:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 23:19:50] "GET /author/ HTTP/1.1" 200 -
+2022/08/02 23:19:55 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 23:19:55] "GET /author/ HTTP/1.1" 200 -
+2022/08/02 23:19:57 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 23:19:57] "GET /author/ HTTP/1.1" 200 -
+2022/08/02 23:44:50 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 23:44:50] "GET /author/ HTTP/1.1" 200 -
+2022/08/02 23:46:50 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/author/routes.py', reloading
+2022/08/02 23:46:51 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 23:53:08 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 23:53:08 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 23:53:12 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 23:53:12] "[32mGET /author/table/list HTTP/1.1[0m" 308 -
+2022/08/02 23:53:12 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 23:53:12] "OPTIONS /author/table/list/ HTTP/1.1" 200 -
+2022/08/02 23:53:12 root __init__.py[127] bad_request() ERROR: 400 Bad Request: Failed to decode JSON object: Expecting value: line 1 column 1 (char 0)
+2022/08/02 23:53:12 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 23:53:12] "[31m[1mGET /author/table/list/ HTTP/1.1[0m" 400 -
+2022/08/02 23:54:12 werkzeug _internal.py[224] _log() INFO:  * Detected change in '/Users/justinzhang/Downloads/LungDB_DB/api/app/author/routes.py', reloading
+2022/08/02 23:54:12 werkzeug _internal.py[224] _log() INFO:  * Restarting with stat
+2022/08/02 23:54:12 flask_api __init__.py[44] create_app() INFO: Flask Rest Api startup On MAC
+2022/08/02 23:54:16 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 23:54:16] "OPTIONS /author/table/list/ HTTP/1.1" 200 -
+2022/08/02 23:54:16 werkzeug _internal.py[224] _log() INFO: 127.0.0.1 - - [02/Aug/2022 23:54:16] "[35m[1mGET /author/table/list/ HTTP/1.1[0m" 500 -
